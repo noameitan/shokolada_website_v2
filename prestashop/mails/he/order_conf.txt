@@ -1,0 +1,31 @@
+
+שלום {lastname} {firstname},
+ 
+תודה שקנית באתר {shop_name}!
+ 
+להלן פרטי הזמנה {order_name}
+ 
+הזמנה: {order_name} מתאריך {date} 
+תשלום: {payment}
+
+סהכ מוצרים: {total_products}
+סהכ הנחות: {total_discounts}
+סהכ משלוח:  {total_shipping}
+סהכ אריזות-מתנה: {total_wrapping}
+תשלום כולל: Total paid: {total_paid}
+
+מוביל: {carrier}
+
+כתובת למשלוח:
+
+‏{delivery_block_txt}
+
+כתובת לחיוב:
+
+‏{invoice_block_txt}
+
+תוכל לבחון את הזמנתך ולהוריד את החשבונית מתפריט היסטורית הזמנות של חשבון הלקוח שלך, על ידי לחיצה על החשבון שלי בחנות שלנו.
+אם יש לך חשבון אורח, תוכל לעקוב אחר הזמנתך על ידי לחיצה על הקישור הבא:  {guest_tracking_url}
+ 
+------------------------
+הודעה זו נשלחה אליך על ידי אתר {shop_name} - {shop_url} . 
