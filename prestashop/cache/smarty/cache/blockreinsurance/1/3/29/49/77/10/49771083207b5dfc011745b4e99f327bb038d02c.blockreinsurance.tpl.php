@@ -10,19 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '1298652cb12db173145-12883644',
-  'variables' => 
-  array (
-    'infos' => 0,
-    'nbblocks' => 0,
-    'module_dir' => 0,
-    'info' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12db20b9a3_41464820',
+  'unifunc' => 'content_52cb1b68e99c78_15556068',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12db20b9a3_41464820')) {function content_52cb12db20b9a3_41464820($_smarty_tpl) {?><!-- MODULE Block reinsurance -->
+<?php if ($_valid && !is_callable('content_52cb1b68e99c78_15556068')) {function content_52cb1b68e99c78_15556068($_smarty_tpl) {?><!-- MODULE Block reinsurance -->
 <div id="reinsurance_block" class="clearfix">
 	<ul class="width5">	
 					<li><img src="/1561/prestashop/modules/blockreinsurance/img/reinsurance-1-1.jpg" alt="Money back guarantee." /> <span>Money back guarantee.</span></li>

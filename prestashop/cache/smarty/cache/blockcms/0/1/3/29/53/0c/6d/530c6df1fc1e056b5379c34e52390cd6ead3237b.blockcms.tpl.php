@@ -10,28 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '2462152cb12d9ca49b8-09537062',
-  'variables' => 
-  array (
-    'block' => 0,
-    'cms_titles' => 0,
-    'cms_key' => 0,
-    'cms_title' => 0,
-    'cms_page' => 0,
-    'link' => 0,
-    'PS_CATALOG_MODE' => 0,
-    'display_stores_footer' => 0,
-    'contact_url' => 0,
-    'cmslinks' => 0,
-    'cmslink' => 0,
-    'display_poweredby' => 0,
-    'footer_text' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12da0c3a73_58844584',
+  'unifunc' => 'content_52cb1b681d88a8_77407748',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12da0c3a73_58844584')) {function content_52cb12da0c3a73_58844584($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b681d88a8_77407748')) {function content_52cb1b681d88a8_77407748($_smarty_tpl) {?>
 	<!-- Block CMS module -->
 			<div id="informations_block_left_1" class="block informations_block_left">
 			<p class="title_block"><a href="http://localhost/1561/prestashop/index.php?id_cms_category=1&amp;controller=cms&amp;id_lang=3">Information</a></p>

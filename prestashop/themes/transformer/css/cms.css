@@ -1,0 +1,6 @@
+/* CMS pages ****************************************************************************** */
+#cms #center_column ul,
+#cms #center_column ol,
+#cms #center_column dl {margin-left:1.5em}
+#cms #center_column ul{list-style: square;}
+#cms #center_column ol{list-style: decimal;}

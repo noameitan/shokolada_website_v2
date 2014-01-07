@@ -1,0 +1,16 @@
+/* Block specials */
+#special_block_right ul.pro_column_list{
+    padding-bottom:8px;margin-bottom:8px;
+	border-bottom:1px dotted #e5e5e5;
+ }
+
+/* Block specials */
+#special_block_right .pro_column_right span.price-discount {
+	text-decoration:line-through;
+    margin-left:4px;
+}
+#special_block_right .pro_column_right span.reduction {
+    margin-left:4px;
+}
+#special_block_right .pro_column_right span.price {
+}

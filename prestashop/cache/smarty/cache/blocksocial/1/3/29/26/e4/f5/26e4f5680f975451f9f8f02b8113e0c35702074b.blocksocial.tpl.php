@@ -10,18 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '752152cb12db55c359-44111341',
-  'variables' => 
-  array (
-    'facebook_url' => 0,
-    'twitter_url' => 0,
-    'rss_url' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12db61eca6_94283148',
+  'unifunc' => 'content_52cb1b6901a397_30599328',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12db61eca6_94283148')) {function content_52cb12db61eca6_94283148($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b6901a397_30599328')) {function content_52cb1b6901a397_30599328($_smarty_tpl) {?>
 <div id="social_block">
 	<p class="title_block">עקבו אחרינו</p>
 	<ul>

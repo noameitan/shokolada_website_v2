@@ -1,0 +1,93 @@
+/* Special style for block cart*/
+#left_column #cart_block, #right_column #cart_block {
+}
+#header  #cart_block .title_block, #header  #cart_block h4 {
+	display: none;
+}
+#header #cart_block {
+	z-index: 80;
+	position: absolute;
+    display:none;
+	right: 0;
+	top: 42px;
+	height: auto;
+	width: 300px;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    text-align:left;
+}
+#cart_block.cart_block_hover {display:block}
+#cart_block .title_block  span, #header  #cart_block h4 {
+	float: right;
+	padding-left: 10px;
+	text-transform: none;
+	background-position: left top;
+	background-repeat: no-repeat;
+	cursor: pointer
+}
+
+#header #cart_block  .block_content {padding:8px;}
+
+#cart_block #cart_block_summary {display:none}
+#cart_block .quantity-formated {
+	display:inline-block;
+	padding-right:2px;
+	min-width:18px;
+	vertical-align: top;
+}
+#cart_block .remove_link, #cart_block .deleteCustomizableProduct {
+	float:right;
+	display:inline-block;
+	margin:1px 0 0 5px;
+	height:12px;
+	width:12px
+}
+#cart_block .remove_link a, #cart_block .ajax_cart_block_remove_link {
+	display:inline-block;
+	height:12px;
+	width:12px;
+}
+#cart_block .price {
+	float:right
+}
+
+#cart_block #cart_block_list dt {padding-bottom:6px;margin-bottom:6px;border-bottom: 1px solid #e5e5e5;}
+#cart_block #cart_block_list dt.last_item,#cart_block #cart_block_list dt:last-child{border-bottom:none;}
+#cart_block #cart-prices {
+	padding:10px 0;
+	border-top:1px solid #e5e5e5;
+    color:#666;
+}
+#cart_block #cart_block_shipping_cost,
+#cart_block #cart_block_total {
+	float:right;
+}
+#cart_block #cart_block_shipping_cost {}
+
+#cart_block #cart-buttons .button_small {display:none;}
+#cart_block table#vouchers {
+	clear: both;
+	width:100%
+}
+#cart_block table#vouchers tr td{
+	padding: 2px;
+}
+#cart_block table#vouchers tr td.quantity{
+	margin-right:5px;
+	min-width:18px
+}
+#cart_block table#vouchers tr td.delete{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+	width: 15px;
+}
+
+#cart_block .cart_block_product_image{float:left;display:block;border:1px solid #e5e5e5;margin-right:10px;}
+#cart_block .cart-prices-item{padding-bottom:4px;border-bottom:1px solid #e5e5e5;margin-bottom:4px;}
+
+#shopping_cart {vertical-align:middle;border:1px solid #E5E5E5;display:inline-block;}
+#columns #shopping_cart{display:none;}
+#shopping_cart .icon_wrap .amount_circle{top:-8px;right:-8px;left:auto;}
+#shopping_cart .ajax_cart_left{float:left;min-width:36px;position:relative;}
+#shopping_cart .ajax_cart_right{float:right;display:block;border-left:1px solid #e5e5e5;padding-right:4px;padding-left:4px;font-weight:bold;}

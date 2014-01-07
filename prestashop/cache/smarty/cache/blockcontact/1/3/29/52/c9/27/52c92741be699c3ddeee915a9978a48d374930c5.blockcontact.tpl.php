@@ -10,17 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '2951952cb12da916e30-19924408',
-  'variables' => 
-  array (
-    'telnumber' => 0,
-    'email' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12da9cd347_64231726',
+  'unifunc' => 'content_52cb1b68b80ce3_93572090',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12da9cd347_64231726')) {function content_52cb12da9cd347_64231726($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b68b80ce3_93572090')) {function content_52cb1b68b80ce3_93572090($_smarty_tpl) {?>
 <div id="contact_block" class="block">
 	<p class="title_block">צור קשר</p>
 	<div class="block_content clearfix">

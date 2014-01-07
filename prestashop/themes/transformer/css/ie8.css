@@ -1,0 +1,9 @@
+.hover_fly{bottom:0;}
+
+.grid_view #product_list .rating_box{display:none;}
+
+a.icon_wrap,
+.icon_wrap,
+a.icon_circle,
+.icon_circle{width:36px;}
+#shopping_cart.icon_wrap{width:;}

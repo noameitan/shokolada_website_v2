@@ -10,30 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '2659752cb12dabe8e20-23507694',
-  'variables' => 
-  array (
-    'products' => 0,
-    'nbLi' => 0,
-    'nbItemsPerLine' => 0,
-    'nbLines' => 0,
-    'liHeight' => 0,
-    'ulHeight' => 0,
-    'totModulo' => 0,
-    'product' => 0,
-    'link' => 0,
-    'homeSize' => 0,
-    'restricted_country_mode' => 0,
-    'PS_CATALOG_MODE' => 0,
-    'priceDisplay' => 0,
-    'add_prod_display' => 0,
-    'static_token' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12db141c70_91017268',
+  'unifunc' => 'content_52cb1b68d8dc00_85663159',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12db141c70_91017268')) {function content_52cb12db141c70_91017268($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b68d8dc00_85663159')) {function content_52cb1b68d8dc00_85663159($_smarty_tpl) {?>
 <!-- MODULE Home Featured Products -->
 <div id="featured-products_block_center" class="block products_block clearfix">
 	<p class="title_block">המיוחדים שלנו</p>

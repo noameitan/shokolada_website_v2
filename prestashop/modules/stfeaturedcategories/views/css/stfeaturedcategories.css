@@ -1,0 +1,14 @@
+.fc_cat_image{display:block;margin-bottom: 6px;}
+.featured_categories_list li{margin:0 1%;float:left;padding:20px 0 10px;}
+.featured_categories_list li dd{margin:0;padding:0 0 2px 0;}
+#center_column.span9 .featured_categories_list.fc_cate_home li,
+#center_column.span9 .featured_categories_list.fc_cate_hs li,
+#center_column.span12 #home_secondary_left.span9 .featured_categories_list.fc_cate_hs li{width:23%;}
+#center_column.span9 .featured_categories_list.fc_cate_home li:nth-of-type(4n+1),
+#center_column.span9 .featured_categories_list.fc_cate_hs li:nth-of-type(4n+1),
+#center_column.span12 #home_secondary_left.span9 .featured_categories_list.fc_cate_hs li:nth-of-type(4n+1){clear:both;}
+
+#center_column.span12 .featured_categories_list.fc_cate_home li,
+#home_secondary_left.span12 .featured_categories_list.fc_cate_hs li{width:14.666%;}
+#center_column.span12 .featured_categories_list.fc_cate_home li:nth-of-type(6n+1),
+#home_secondary_left.span12 .featured_categories_list.fc_cate_hs li:nth-of-type(6n+1){clear:both;}

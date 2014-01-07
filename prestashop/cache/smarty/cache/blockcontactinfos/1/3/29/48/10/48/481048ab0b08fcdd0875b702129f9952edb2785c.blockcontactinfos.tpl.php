@@ -10,19 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '1651852cb12db6405e7-36982928',
-  'variables' => 
-  array (
-    'blockcontactinfos_company' => 0,
-    'blockcontactinfos_address' => 0,
-    'blockcontactinfos_phone' => 0,
-    'blockcontactinfos_email' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12db734460_48136801',
+  'unifunc' => 'content_52cb1b6909acf0_98307847',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12db734460_48136801')) {function content_52cb12db734460_48136801($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b6909acf0_98307847')) {function content_52cb1b6909acf0_98307847($_smarty_tpl) {?>
 <!-- MODULE Block contact infos -->
 <div id="block_contact_infos">
 	<p class="title_block">צור קשר</p>

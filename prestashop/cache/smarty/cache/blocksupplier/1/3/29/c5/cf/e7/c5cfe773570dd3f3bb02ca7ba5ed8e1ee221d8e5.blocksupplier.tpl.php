@@ -10,22 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '2056752cb12d98daf30-78273392',
-  'variables' => 
-  array (
-    'display_link_supplier' => 0,
-    'link' => 0,
-    'suppliers' => 0,
-    'text_list' => 0,
-    'text_list_nb' => 0,
-    'supplier' => 0,
-    'form_list' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12d9a964c4_55165023',
+  'unifunc' => 'content_52cb1b67d65397_20506770',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12d9a964c4_55165023')) {function content_52cb12d9a964c4_55165023($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b67d65397_20506770')) {function content_52cb1b67d65397_20506770($_smarty_tpl) {?>
 <!-- Block suppliers module -->
 <div id="suppliers_block_left" class="block blocksupplier">
 	<p class="title_block"><a href="http://localhost/1561/prestashop/index.php?controller=supplier" title="ספקים">ספקים</a></p>

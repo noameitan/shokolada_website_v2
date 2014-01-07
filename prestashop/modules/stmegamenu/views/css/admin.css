@@ -1,0 +1,19 @@
+.styles_raido_1,
+.styles_raido_2,
+.styles_raido_3,
+.styles_raido_4,
+.styles_raido_5,
+.styles_raido_6,
+.styles_raido_7,
+.styles_raido_8,
+.styles_raido_9{width:76px;height:32px;display: inline-block;padding:4px 4px 0 0;margin: 0 6px 6px 0;}
+.styles_raido_1{background:url(../img/s_1.jpg) no-repeat left top;}
+.styles_raido_2{background:url(../img/s_2.jpg) no-repeat left top;}
+.styles_raido_3{background:url(../img/s_3.jpg) no-repeat left top;}
+.styles_raido_4{background:url(../img/s_4.jpg) no-repeat left top;}
+.styles_raido_5{background:url(../img/s_5.jpg) no-repeat left top;}
+.styles_raido_6{background:url(../img/s_6.jpg) no-repeat left top;}
+.styles_raido_7{background:url(../img/s_7.jpg) no-repeat left top;}
+.styles_raido_8{background:url(../img/s_8.jpg) no-repeat left top;}
+.styles_raido_9{background:url(../img/s_9.jpg) no-repeat left top;}
+#custom_content_1,#custom_content_2,#custom_content_3,#custom_content_4{float:left;margin: 0 6px 6px 0;}

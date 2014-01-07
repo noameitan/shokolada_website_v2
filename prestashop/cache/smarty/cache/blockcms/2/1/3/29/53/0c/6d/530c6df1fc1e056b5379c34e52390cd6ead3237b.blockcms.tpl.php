@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '2462152cb12d9ca49b8-09537062',
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12db541cc1_35713480',
+  'unifunc' => 'content_52cb1b68f2faf3_65566681',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12db541cc1_35713480')) {function content_52cb12db541cc1_35713480($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b68f2faf3_65566681')) {function content_52cb1b68f2faf3_65566681($_smarty_tpl) {?>
 	<!-- MODULE Block footer -->
 	<div class="block_various_links" id="block_various_links_footer">
 		<p class="title_block">מידע</p>

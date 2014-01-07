@@ -10,20 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '689952cb12da328e08-20687187',
-  'variables' => 
-  array (
-    'link' => 0,
-    'new_products' => 0,
-    'product' => 0,
-    'mediumSize' => 0,
-    'newproduct' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12da523145_19905600',
+  'unifunc' => 'content_52cb1b689f95b4_21008427',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12da523145_19905600')) {function content_52cb12da523145_19905600($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b689f95b4_21008427')) {function content_52cb1b689f95b4_21008427($_smarty_tpl) {?>
 <!-- MODULE Block new products -->
 <div id="new-products_block_right" class="block products_block">
 	<p class="title_block"><a href="http://localhost/1561/prestashop/index.php?controller=new-products" title="מוצרים חדשים">מוצרים חדשים</a></p>

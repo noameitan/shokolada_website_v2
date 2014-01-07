@@ -1,0 +1,46 @@
+#compare_shipping .center {text-align: center;}
+
+#compare_shipping {
+	padding: 0 10px 10px 10px;
+}
+#compare_shipping h3{margin:0 -10px 10px;background: #f5f5f5;padding:6px 10px;font-weight: normal;font-size:1.333em;}
+#compare_shipping label{display:inline-block;width:80px;}
+
+#compare_shipping #availableCarriers {
+	margin-bottom: 20px;
+}
+
+#compare_shipping #availableCarriers_table {
+	margin: auto;
+}
+
+#compare_shipping ul#carriercompare_errors_list {
+	color: red;
+}
+
+#compare_shipping ul#carriercompare_errors_list li {
+	margin-left: 30px;
+	text-decoration: none;
+	list-style: none;
+}
+
+#SE_AjaxDisplay
+{
+	text-align: center;
+	display: none;
+}
+
+#SE_AjaxDisplay img
+{
+	width: 15px;
+}
+
+.SE_SubmitRefreshCard
+{
+	text-align: center;
+}
+
+.SE_SubmitRefreshCard input
+{
+	display: inline;
+}

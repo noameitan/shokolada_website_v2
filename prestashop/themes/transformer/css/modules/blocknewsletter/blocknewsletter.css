@@ -1,0 +1,11 @@
+/* Block newsletter */
+#newsletter_form label{display:block;padding-bottom:4px;}
+#columns #newsletter_block_left{margin-left:0;}
+#newsletter_block_left input.inputNew {
+	height:25px;
+	line-height:25px;
+    margin-bottom:6px;
+}
+#columns #newsletter_block_left input.inputNew {width:200px;display: block;}
+#footer #newsletter_block_left input.inputNew {width:110px;}
+#footer #newsletter_block_left input.button_mini { vertical-align: top;height:30px;font-size:1em;}

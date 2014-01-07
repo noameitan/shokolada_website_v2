@@ -10,18 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '1067052cb12da85ae01-02359268',
-  'variables' => 
-  array (
-    'link' => 0,
-    'module_dir' => 0,
-    'store_img' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12da8f9d19_91626759',
+  'unifunc' => 'content_52cb1b68b51f53_84761456',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12da8f9d19_91626759')) {function content_52cb12da8f9d19_91626759($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b68b51f53_84761456')) {function content_52cb1b68b51f53_84761456($_smarty_tpl) {?>
 <!-- Block stores module -->
 <div id="stores_block_left" class="block">
 	<p class="title_block"><a href="http://localhost/1561/prestashop/index.php?controller=stores" title="החנויות שלנו">החנויות שלנו</a></p>

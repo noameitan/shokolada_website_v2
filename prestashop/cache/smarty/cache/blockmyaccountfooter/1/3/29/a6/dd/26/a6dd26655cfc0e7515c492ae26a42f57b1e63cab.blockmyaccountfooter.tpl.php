@@ -10,19 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '1863252cb12db37f973-95235722',
-  'variables' => 
-  array (
-    'link' => 0,
-    'returnAllowed' => 0,
-    'voucherAllowed' => 0,
-    'HOOK_BLOCK_MY_ACCOUNT' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12db517289_44438245',
+  'unifunc' => 'content_52cb1b68f12659_04617350',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12db517289_44438245')) {function content_52cb12db517289_44438245($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b68f12659_04617350')) {function content_52cb1b68f12659_04617350($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <div class="block myaccount">
 	<p class="title_block"><a href="http://localhost/1561/prestashop/index.php?controller=my-account" title="נהל את חשבוני" rel="nofollow">החשבון שלי</a></p>

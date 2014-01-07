@@ -1,0 +1,5 @@
+#my-account  #left_column {display:none}
+
+#my-account .myaccount_lnk_list {list-style-type:none}
+#my-account .myaccount_lnk_list li{padding:6px 0;}
+#my-account .myaccount_lnk_list li .icon_wrap{margin-right:6px;}

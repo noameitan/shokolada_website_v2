@@ -16,18 +16,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '2200152cb12d9716138-01501476',
-  'variables' => 
-  array (
-    'isDhtml' => 0,
-    'blockCategTree' => 0,
-    'child' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12d98a5727_14661130',
+  'unifunc' => 'content_52cb1b67c393b4_37070526',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12d98a5727_14661130')) {function content_52cb12d98a5727_14661130($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b67c393b4_37070526')) {function content_52cb1b67c393b4_37070526($_smarty_tpl) {?>
 <!-- Block categories module -->
 <div id="categories_block_left" class="block">
 	<p class="title_block">קטגוריות</p>

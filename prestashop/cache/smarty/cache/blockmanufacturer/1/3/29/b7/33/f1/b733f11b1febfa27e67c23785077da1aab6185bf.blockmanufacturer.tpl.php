@@ -10,22 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '2643652cb12d9ac6875-16101880',
-  'variables' => 
-  array (
-    'display_link_manufacturer' => 0,
-    'link' => 0,
-    'manufacturers' => 0,
-    'text_list' => 0,
-    'text_list_nb' => 0,
-    'manufacturer' => 0,
-    'form_list' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cb12d9c79a83_49590847',
+  'unifunc' => 'content_52cb1b67e26899_50333411',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cb12d9c79a83_49590847')) {function content_52cb12d9c79a83_49590847($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52cb1b67e26899_50333411')) {function content_52cb1b67e26899_50333411($_smarty_tpl) {?>
 <!-- Block manufacturers module -->
 <div id="manufacturers_block_left" class="block blockmanufacturer">
 	<p class="title_block"><a href="http://localhost/1561/prestashop/index.php?controller=manufacturer" title="יצרנים">יצרנים</a></p>

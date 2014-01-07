@@ -1,0 +1,18 @@
+/* block myaccount */
+.myaccount ul {margin-bottom:10px}
+.myaccount li a {
+   display: block;
+}
+.myaccount p.logout {
+	padding-bottom:0;
+	font-weight:bold;
+	text-align:right
+}
+
+
+/* block myaccount in footer */
+#footer .myaccount .title_block, #footer .myaccount h4  {background: none;}
+#footer .myaccount .logout {display:none;}
+#footer .myaccount ul {margin-bottom:0}
+#footer .myaccount li.lnk_wishlist P {display:none
+}
