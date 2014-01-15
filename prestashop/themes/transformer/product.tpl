@@ -445,13 +445,13 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
             <p id="add_to_cart" {if (!$allow_oosp && $product->quantity <= 0) OR !$product->available_for_order OR (isset($restricted_country_mode) AND $restricted_country_mode) OR $PS_CATALOG_MODE}style="display:none"{/if} class="buttons_bottom_block">
 				<input type="submit" name="Submit" value="{l s='Add to cart'}" class="exclusive btn_primary" />
 			</p>
+            {if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
 			{if isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS}{$HOOK_PRODUCT_ACTIONS}{/if}
 
 			<div class="clear"></div>
 		</div>
 		</form>
 		{/if}
-		{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
 	</div>
     {if isset($HOOK_PRODUCT_SECONDARY_COLUMN)}
     <div id="product_secondary_column" class="span3">

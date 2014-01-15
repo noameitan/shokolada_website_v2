@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-07 16:01:24
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-15 18:32:32
          compiled from "D:\wamp\www\1561\prestashop\modules\stfblikebox\views\templates\hook\stfblikebox-footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3023352cc08b4794cb9-64936648%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1234952d6b8201d0f34-42370132%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3023352cc08b4794cb9-64936648',
+  'nocache_hash' => '1234952d6b8201d0f34-42370132',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cc08b483d5a0_89761717',
+  'unifunc' => 'content_52d6b8202590e4_69922765',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cc08b483d5a0_89761717')) {function content_52cc08b483d5a0_89761717($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d6b8202590e4_69922765')) {function content_52d6b8202590e4_69922765($_smarty_tpl) {?>
 <!-- MODULE st facebook like box  -->
 <section id="facebook_like_box_footer" class="span3 block">
     <a href="javascript:;" class="opener visible-phone">&nbsp;</a>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-07 16:01:23
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-15 18:32:31
          compiled from "D:\wamp\www\1561\prestashop\modules\blockcurrencies_mod\views\templates\hook\blockcurrencies.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2791052cc08b3b2af48-91096481%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1127552d6b81f8f1db5-35454024%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2791052cc08b3b2af48-91096481',
+  'nocache_hash' => '1127552d6b81f8f1db5-35454024',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cc08b3ba1ff9_96827954',
+  'unifunc' => 'content_52d6b81f998491_81755248',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cc08b3ba1ff9_96827954')) {function content_52cc08b3ba1ff9_96827954($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d6b81f998491_81755248')) {function content_52d6b81f998491_81755248($_smarty_tpl) {?>
 
 <!-- Block currencies module -->
 

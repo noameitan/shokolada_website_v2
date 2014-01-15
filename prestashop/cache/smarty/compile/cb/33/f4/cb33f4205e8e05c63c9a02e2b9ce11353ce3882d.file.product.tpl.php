@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-07 16:42:24
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-15 18:01:07
          compiled from "D:\wamp\www\1561\prestashop\themes\transformer\product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:537952cc12503e9a86-77228928%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:626952d6b0c34a72f2-38273697%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cb33f4205e8e05c63c9a02e2b9ce11353ce3882d' => 
     array (
       0 => 'D:\\wamp\\www\\1561\\prestashop\\themes\\transformer\\product.tpl',
-      1 => 1389102133,
+      1 => 1389739961,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '537952cc12503e9a86-77228928',
+  'nocache_hash' => '626952d6b0c34a72f2-38273697',
   'function' => 
   array (
   ),
@@ -127,9 +127,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cc1253d1e999_77306825',
+  'unifunc' => 'content_52d6b0c6077871_70328026',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cc1253d1e999_77306825')) {function content_52cc1253d1e999_77306825($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include 'D:\\wamp\\www\\1561\\prestashop\\tools\\smarty\\plugins\\modifier.escape.php';
+<?php if ($_valid && !is_callable('content_52d6b0c6077871_70328026')) {function content_52d6b0c6077871_70328026($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include 'D:\\wamp\\www\\1561\\prestashop\\tools\\smarty\\plugins\\modifier.escape.php';
 if (!is_callable('smarty_modifier_date_format')) include 'D:\\wamp\\www\\1561\\prestashop\\tools\\smarty\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include 'D:\\wamp\\www\\1561\\prestashop\\tools\\smarty\\plugins\\function.math.php';
 if (!is_callable('smarty_function_counter')) include 'D:\\wamp\\www\\1561\\prestashop\\tools\\smarty\\plugins\\function.counter.php';
@@ -823,6 +823,8 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
 				<input type="submit" name="Submit" value="<?php echo smartyTranslate(array('s'=>'Add to cart'),$_smarty_tpl);?>
 " class="exclusive btn_primary" />
 			</p>
+            <?php if (isset($_smarty_tpl->tpl_vars['HOOK_EXTRA_RIGHT']->value)&&$_smarty_tpl->tpl_vars['HOOK_EXTRA_RIGHT']->value){?><?php echo $_smarty_tpl->tpl_vars['HOOK_EXTRA_RIGHT']->value;?>
+<?php }?>
 			<?php if (isset($_smarty_tpl->tpl_vars['HOOK_PRODUCT_ACTIONS']->value)&&$_smarty_tpl->tpl_vars['HOOK_PRODUCT_ACTIONS']->value){?><?php echo $_smarty_tpl->tpl_vars['HOOK_PRODUCT_ACTIONS']->value;?>
 <?php }?>
 
@@ -830,8 +832,6 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
 		</div>
 		</form>
 		<?php }?>
-		<?php if (isset($_smarty_tpl->tpl_vars['HOOK_EXTRA_RIGHT']->value)&&$_smarty_tpl->tpl_vars['HOOK_EXTRA_RIGHT']->value){?><?php echo $_smarty_tpl->tpl_vars['HOOK_EXTRA_RIGHT']->value;?>
-<?php }?>
 	</div>
     <?php if (isset($_smarty_tpl->tpl_vars['HOOK_PRODUCT_SECONDARY_COLUMN']->value)){?>
     <div id="product_secondary_column" class="span3">

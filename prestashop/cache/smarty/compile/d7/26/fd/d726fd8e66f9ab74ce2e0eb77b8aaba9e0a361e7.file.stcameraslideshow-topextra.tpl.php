@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-07 16:01:27
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-15 18:24:34
          compiled from "D:\wamp\www\1561\prestashop\modules\stcameraslideshow\views\templates\hook\stcameraslideshow-topextra.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:602552cc08b7a1b8f2-17418158%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:732552d6b642156b15-96679031%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '602552cc08b7a1b8f2-17418158',
+  'nocache_hash' => '732552d6b642156b15-96679031',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52cc08b805ea83_28060062',
+  'unifunc' => 'content_52d6b64271d561_99657784',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52cc08b805ea83_28060062')) {function content_52cc08b805ea83_28060062($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include 'D:\\wamp\\www\\1561\\prestashop\\tools\\smarty\\plugins\\modifier.escape.php';
+<?php if ($_valid && !is_callable('content_52d6b64271d561_99657784')) {function content_52d6b64271d561_99657784($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include 'D:\\wamp\\www\\1561\\prestashop\\tools\\smarty\\plugins\\modifier.escape.php';
 ?><!-- MODULE stcameraslideshow -->
 <?php if (isset($_smarty_tpl->tpl_vars['slide_group']->value)){?>
     <?php if (isset($_smarty_tpl->tpl_vars['google_font_links']->value)){?><?php echo $_smarty_tpl->tpl_vars['google_font_links']->value;?>
