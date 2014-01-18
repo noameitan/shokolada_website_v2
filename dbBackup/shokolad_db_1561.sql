@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 16, 2014 at 11:13 PM
+-- Generation Time: Jan 18, 2014 at 10:34 PM
 -- Server version: 5.5.24-log
 -- PHP Version: 5.3.13
 
@@ -629,7 +629,7 @@ CREATE TABLE IF NOT EXISTS `ps_address` (
   KEY `id_manufacturer` (`id_manufacturer`),
   KEY `id_supplier` (`id_supplier`),
   KEY `id_warehouse` (`id_warehouse`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `ps_address`
@@ -640,7 +640,8 @@ INSERT INTO `ps_address` (`id_address`, `id_country`, `id_state`, `id_customer`,
 (2, 8, 0, 1, 0, 0, 0, 'Mon adresse', 'My Company', 'DOE', 'John', '16, Main street', '2nd floor', '75002', 'Paris ', '', '0102030405', '', '', '', '2014-01-06 22:19:16', '2014-01-06 22:19:16', 1, 0),
 (3, 21, 32, 0, 0, 1, 0, 'supplier', 'Apple', 'supplier', 'supplier', '767 Fifth Ave.', '', '10153', 'New York', '', '(212) 336-1440', '', '', '', '2014-01-06 22:19:16', '2014-01-06 22:19:16', 1, 0),
 (4, 21, 13, 0, 0, 2, 0, 'supplier', 'Shure', 'supplier', 'supplier', '5800 W. Touhy Ave', '', '60714', 'Niles', '', '800-434-3350', '', '', '', '2014-01-06 22:19:16', '2014-01-06 22:19:16', 1, 0),
-(5, 29, 0, 3, 0, 0, 0, 'הכתובת שלי', '', 'איתן', 'נועם', 'הרימון 4', '', '54403', 'גבעת שמואל', '', '', '054-5619291', '', '', '2014-01-17 00:29:54', '2014-01-17 00:29:54', 1, 0);
+(5, 29, 0, 3, 0, 0, 0, 'הכתובת שלי', '', 'איתן', 'נועם', 'הרימון 4', '', '0254403', 'גבעת שמואל', '', '', '054-5619291', '', '', '2014-01-17 00:29:54', '2014-01-17 16:09:07', 1, 0),
+(6, 29, 0, 3, 0, 0, 0, 'חולון', '', 'איתן', 'נועם', 'וולפסון 9', '', '58344', 'חולון', '', '035563173', '', '', '', '2014-01-17 15:57:03', '2014-01-17 15:57:03', 1, 0);
 
 -- --------------------------------------------------------
 
@@ -687,7 +688,7 @@ INSERT INTO `ps_address_format` (`id_country`, `format`) VALUES
 (26, 'firstname lastname\ncompany\nvat_number\naddress1\naddress2\npostcode city\nCountry:name\nphone\nphone_mobile'),
 (27, 'firstname lastname\ncompany\nvat_number\naddress1\naddress2\npostcode city\nCountry:name\nphone\nphone_mobile'),
 (28, 'firstname lastname\ncompany\nvat_number\naddress1\naddress2\npostcode city\nCountry:name\nphone\nphone_mobile'),
-(29, 'firstname lastname\ncompany\nvat_number\naddress1\naddress2\npostcode city\nCountry:name\nphone\nphone_mobile'),
+(29, 'firstname lastname\r\ncompany\r\nvat_number\r\naddress1\r\naddress2\r\npostcode city\r\nCountry:name\r\nphone\r\nphone_mobile'),
 (30, 'firstname lastname\ncompany\nvat_number\naddress1\naddress2\npostcode city\nCountry:name\nphone\nphone_mobile'),
 (31, 'firstname lastname\ncompany\nvat_number\naddress1\naddress2\npostcode city\nCountry:name\nphone\nphone_mobile'),
 (32, 'firstname lastname\ncompany\nvat_number\naddress1\naddress2\npostcode city\nCountry:name\nphone\nphone_mobile'),
@@ -1285,7 +1286,7 @@ CREATE TABLE IF NOT EXISTS `ps_badge` (
 INSERT INTO `ps_badge` (`id_badge`, `id_ps_badge`, `type`, `id_group`, `group_position`, `scoring`, `validated`) VALUES
 (2, 2, 'feature', 2, 1, 10, 0),
 (4, 4, 'feature', 3, 1, 15, 0),
-(6, 6, 'feature', 4, 1, 15, 0),
+(6, 6, 'feature', 4, 1, 15, 1),
 (8, 8, 'feature', 5, 1, 5, 1),
 (10, 10, 'feature', 6, 1, 15, 0),
 (12, 12, 'feature', 6, 3, 10, 0),
@@ -1308,7 +1309,7 @@ INSERT INTO `ps_badge` (`id_badge`, `id_ps_badge`, `type`, `id_group`, `group_po
 (46, 46, 'achievement', 13, 2, 10, 0),
 (47, 2, 'feature', 2, 1, 10, 0),
 (48, 4, 'feature', 3, 1, 15, 0),
-(49, 6, 'feature', 4, 1, 15, 0),
+(49, 6, 'feature', 4, 1, 15, 1),
 (50, 8, 'feature', 5, 1, 5, 1),
 (51, 10, 'feature', 6, 1, 15, 0),
 (52, 12, 'feature', 6, 3, 10, 0),
@@ -1386,8 +1387,8 @@ INSERT INTO `ps_badge` (`id_badge`, `id_ps_badge`, `type`, `id_group`, `group_po
 (124, 1, 'feature', 1, 1, 10, 0),
 (125, 3, 'feature', 2, 2, 15, 0),
 (126, 5, 'feature', 3, 2, 15, 0),
-(127, 6, 'feature', 4, 1, 15, 0),
-(128, 7, 'feature', 4, 2, 15, 0),
+(127, 6, 'feature', 4, 1, 15, 1),
+(128, 7, 'feature', 4, 2, 15, 1),
 (129, 9, 'feature', 5, 2, 10, 0),
 (130, 10, 'feature', 6, 1, 15, 0),
 (131, 11, 'feature', 6, 2, 10, 0),
@@ -1400,7 +1401,7 @@ INSERT INTO `ps_badge` (`id_badge`, `id_ps_badge`, `type`, `id_group`, `group_po
 (138, 23, 'feature', 10, 2, 10, 0),
 (139, 25, 'feature', 10, 4, 10, 0),
 (140, 26, 'feature', 10, 5, 10, 0),
-(141, 27, 'feature', 4, 3, 10, 0),
+(141, 27, 'feature', 4, 3, 10, 1),
 (142, 29, 'achievement', 11, 1, 5, 0),
 (143, 30, 'achievement', 11, 2, 10, 0),
 (144, 31, 'achievement', 11, 3, 15, 0),
@@ -1599,7 +1600,9 @@ INSERT INTO `ps_badge_lang` (`id_badge`, `id_lang`, `name`, `description`, `grou
 (124, 3, 'SEO', 'You enabled the URL rewriting through the tab "Preferences > SEO and URLs".', 'SEO'),
 (125, 3, 'Site Performance', 'You enabled medias servers through the tab "Advanced parameters > Performances".', 'Site Performance'),
 (126, 3, 'Payment', 'You offer two different payment methods to your customers.', 'Payment'),
+(127, 1, 'Shipping', '', ''),
 (127, 3, 'Shipping', 'You configured a carrier on your store.', 'Shipping'),
+(128, 1, 'Shipping', '', ''),
 (128, 3, 'Shipping', 'You offer two shipping solutions (carriers) to your customers.', 'Shipping'),
 (129, 3, 'Catalog Size', 'You have 10 products within your catalog.', 'Catalog Size'),
 (130, 3, 'Contact information', 'You configured your phone number so your customers can reach you!', 'Contact information'),
@@ -1615,6 +1618,7 @@ INSERT INTO `ps_badge_lang` (`id_badge`, `id_lang`, `name`, `description`, `grou
 (138, 3, 'Multistores', 'You manage two stores with the Multistores feature.', 'Multistores'),
 (139, 3, 'Multistores', 'You manage five stores with the Multistores feature.', 'Multistores'),
 (140, 3, 'Multistores', 'You manage five different groups of stores using the Multistores feature.', 'Multistores'),
+(141, 1, 'Shipping', '', ''),
 (141, 3, 'Shipping', 'You offer three different shipping solutions (carriers) to your customers.', 'Shipping'),
 (142, 3, 'Revenue', 'You get this badge when you reach 500 ILS in sales.', 'Revenue'),
 (143, 3, 'Revenue', 'You get this badge when you reach 1000 ILS in sales.', 'Revenue'),
@@ -1680,15 +1684,17 @@ CREATE TABLE IF NOT EXISTS `ps_carrier` (
   PRIMARY KEY (`id_carrier`),
   KEY `deleted` (`deleted`,`active`),
   KEY `id_tax_rules_group` (`id_tax_rules_group`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Dumping data for table `ps_carrier`
 --
 
 INSERT INTO `ps_carrier` (`id_carrier`, `id_reference`, `id_tax_rules_group`, `name`, `url`, `active`, `deleted`, `shipping_handling`, `range_behavior`, `is_module`, `is_free`, `shipping_external`, `need_range`, `external_module_name`, `shipping_method`, `position`, `max_width`, `max_height`, `max_depth`, `max_weight`, `grade`) VALUES
-(1, 1, 0, '0', '', 1, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, '0.000000', 0),
-(2, 2, 0, 'My carrier', '', 1, 0, 1, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 0, '0.000000', 0);
+(1, 1, 0, 'Shokolada', '', 0, 0, 0, 0, 0, 0, 0, 0, '', 1, 0, 0, 0, 0, '0.000000', 0),
+(2, 2, 0, 'My carrier', '', 0, 0, 1, 0, 0, 0, 0, 0, '', 1, 1, 0, 0, 0, '0.000000', 0),
+(3, 3, 0, 'דואר רשום לסניף הקרוב לביתך', '', 1, 0, 0, 0, 0, 0, 0, 0, '', 2, 2, 0, 0, 0, '0.000000', 0),
+(4, 4, 0, 'דואר שליחים עד הבית', '', 1, 0, 0, 0, 0, 0, 0, 0, '', 1, 3, 0, 0, 0, '0.000000', 0);
 
 -- --------------------------------------------------------
 
@@ -1712,7 +1718,13 @@ INSERT INTO `ps_carrier_group` (`id_carrier`, `id_group`) VALUES
 (1, 3),
 (2, 1),
 (2, 2),
-(2, 3);
+(2, 3),
+(3, 1),
+(3, 2),
+(3, 3),
+(4, 1),
+(4, 2),
+(4, 3);
 
 -- --------------------------------------------------------
 
@@ -1735,8 +1747,12 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_lang` (
 INSERT INTO `ps_carrier_lang` (`id_carrier`, `id_shop`, `id_lang`, `delay`) VALUES
 (1, 1, 1, 'Pick up in-store'),
 (2, 1, 1, 'Delivery next day!'),
+(3, 1, 1, 'עד 14 ימי עסקים'),
+(4, 1, 1, 'עד 3 ימי עסקים'),
 (1, 1, 3, 'Pick up in-store'),
-(2, 1, 3, 'Delivery next day!');
+(2, 1, 3, 'Delivery next day!'),
+(3, 1, 3, 'עד 14 ימי עסקים'),
+(4, 1, 3, 'עד 3 ימי עסקים');
 
 -- --------------------------------------------------------
 
@@ -1757,7 +1773,9 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_shop` (
 
 INSERT INTO `ps_carrier_shop` (`id_carrier`, `id_shop`) VALUES
 (1, 1),
-(2, 1);
+(2, 1),
+(3, 1),
+(4, 1);
 
 -- --------------------------------------------------------
 
@@ -1778,7 +1796,9 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_tax_rules_group_shop` (
 
 INSERT INTO `ps_carrier_tax_rules_group_shop` (`id_carrier`, `id_tax_rules_group`, `id_shop`) VALUES
 (1, 1, 1),
-(2, 1, 1);
+(2, 1, 1),
+(3, 0, 1),
+(4, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -1799,7 +1819,9 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_zone` (
 INSERT INTO `ps_carrier_zone` (`id_carrier`, `id_zone`) VALUES
 (1, 1),
 (2, 1),
-(2, 2);
+(2, 2),
+(3, 3),
+(4, 3);
 
 -- --------------------------------------------------------
 
@@ -1846,7 +1868,7 @@ CREATE TABLE IF NOT EXISTS `ps_cart` (
 INSERT INTO `ps_cart` (`id_cart`, `id_shop_group`, `id_shop`, `id_carrier`, `delivery_option`, `id_lang`, `id_address_delivery`, `id_address_invoice`, `id_currency`, `id_customer`, `id_guest`, `secure_key`, `recyclable`, `gift`, `gift_message`, `mobile_theme`, `allow_seperated_package`, `date_add`, `date_upd`) VALUES
 (1, 1, 1, 2, '', 1, 2, 2, 1, 1, 1, '-1', 1, 0, '', 0, 0, '2014-01-06 22:19:27', '2014-01-06 22:19:27'),
 (2, 1, 1, 0, '', 3, 0, 0, 1, 2, 2, '8e7c7d79ee13730288a827797ce8ec24', 0, 0, '', 0, 0, '2014-01-07 16:42:52', '2014-01-16 23:21:01'),
-(3, 1, 1, 0, '', 3, 5, 5, 1, 3, 3, '1bd47e72363e2d7ea87cd7860b6ed7e6', 0, 0, '', 0, 0, '2014-01-17 00:04:53', '2014-01-17 01:10:30');
+(3, 1, 1, 4, 'a:1:{i:5;s:2:"4,";}', 3, 5, 6, 1, 3, 3, '1bd47e72363e2d7ea87cd7860b6ed7e6', 0, 0, '', 0, 0, '2014-01-17 00:04:53', '2014-01-19 00:13:36');
 
 -- --------------------------------------------------------
 
@@ -1887,7 +1909,7 @@ INSERT INTO `ps_cart_product` (`id_cart`, `id_product`, `id_address_delivery`, `
 (1, 5, 0, 1, 11, 1, '0000-00-00 00:00:00'),
 (1, 7, 0, 1, 0, 1, '0000-00-00 00:00:00'),
 (2, 11, 0, 1, 28, 4, '2014-01-13 22:39:22'),
-(3, 14, 5, 1, 43, 1, '2014-01-17 01:10:11');
+(3, 14, 5, 1, 43, 2, '2014-01-17 14:56:40');
 
 -- --------------------------------------------------------
 
@@ -2559,8 +2581,8 @@ INSERT INTO `ps_condition` (`id_condition`, `id_ps_condition`, `type`, `request`
 (13, 5, 'configuration', 'PS_MEDIA_SERVERS', '==', '1', '', 'hook', 'actionAdminPerformanceControllerSaveAfter', 0, '2014-01-06 22:52:04', '2014-01-06 22:52:21'),
 (14, 6, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = "displayPayment" OR h.name = "payment") AND m.name NOT IN ("bankwire", "cheque", "cashondelivery")', '>', '0', '0', 'hook', 'actionModuleInstallAfter', 0, '2014-01-06 22:52:04', '2014-01-07 15:45:13'),
 (15, 7, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = "displayPayment" OR h.name = "payment") AND m.name NOT IN ("bankwire", "cheque", "cashondelivery")', '>', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2014-01-06 22:52:05', '2014-01-06 22:52:21'),
-(16, 8, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN ("0", "My carrier")', '>', '0', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2014-01-06 22:52:05', '2014-01-06 22:52:21'),
-(17, 9, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN ("0", "My carrier")', '>', '1', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2014-01-06 22:52:05', '2014-01-06 22:52:22'),
+(16, 8, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN ("0", "My carrier")', '>', '0', '2', 'hook', 'actionObjectCarrierAddAfter', 1, '2014-01-06 22:52:05', '2014-01-17 15:37:22'),
+(17, 9, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN ("0", "My carrier")', '>', '1', '2', 'hook', 'actionObjectCarrierAddAfter', 1, '2014-01-06 22:52:05', '2014-01-17 15:37:30'),
 (18, 10, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE "demo_%"', '>', '0', '1', 'hook', 'actionObjectProductAddAfter', 1, '2014-01-06 22:52:05', '2014-01-09 16:25:23'),
 (19, 11, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE "demo_%"', '>', '9', '6', 'hook', 'actionObjectProductAddAfter', 0, '2014-01-06 22:52:05', '2014-01-13 22:51:54'),
 (20, 16, 'configuration', 'PS_SHOP_PHONE', '!=', '0', '', 'hook', 'actionAdminStoresControllerUpdate_optionsAfter', 0, '2014-01-06 22:52:05', '2014-01-05 22:52:05'),
@@ -2573,13 +2595,13 @@ INSERT INTO `ps_condition` (`id_condition`, `id_ps_condition`, `type`, `request`
 (27, 20, 'install', '', '>=', '7', '1', 'time', '1', 1, '2014-01-06 22:52:06', '2014-01-13 22:52:36'),
 (28, 21, 'configuration', 'PS_LOGO', '!=', 'logo.jpg', '', 'hook', 'actionAdminThemesControllerUpdate_optionsAfter', 0, '2014-01-06 22:52:06', '2014-01-08 17:59:29'),
 (29, 22, 'sql', 'SELECT COUNT(*) FROM PREFIX_theme WHERE directory != "default" AND directory != "prestashop" AND directory ! "default-bootstrap"', '>', '0', '', 'hook', 'actionObjectThemeAddAfter', 0, '2014-01-06 22:52:06', '2014-01-05 22:52:06'),
-(30, 23, 'configuration', 'PS_LOGGED_ON_ADDONS', '==', '1', '', 'time', '1', 0, '2014-01-06 22:52:06', '2014-01-17 00:01:00'),
+(30, 23, 'configuration', 'PS_LOGGED_ON_ADDONS', '==', '1', '', 'time', '1', 0, '2014-01-06 22:52:06', '2014-01-19 00:00:14'),
 (31, 24, 'configuration', 'PS_MULTISHOP_FEATURE_ACTIVE', '==', '1', '', 'hook', 'actionAdminPreferencesControllerUpdate_optionsAfter', 0, '2014-01-06 22:52:07', '2014-01-05 22:52:07'),
 (32, 25, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '1', '', 'hook', 'actionObjectShopAddAfter', 0, '2014-01-06 22:52:07', '2014-01-05 22:52:07'),
 (33, 28, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '1', '', 'hook', 'actionObjectShopGroupAddAfter', 0, '2014-01-06 22:52:07', '2014-01-05 22:52:07'),
 (34, 26, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '4', '', 'hook', 'actionObjectShopAddAfter', 0, '2014-01-06 22:52:07', '2014-01-05 22:52:07'),
 (35, 27, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '5', '', 'hook', 'actionObjectShopGroupAddAfter 	', 0, '2014-01-06 22:52:07', '2014-01-05 22:52:07'),
-(36, 30, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN ("0", "My carrier")', '>', '2', '', 'hook', 'actionObjectCarrierAddAfter', 0, '2014-01-06 22:52:07', '2014-01-05 22:52:07'),
+(36, 30, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN ("0", "My carrier")', '>', '2', '3', 'hook', 'actionObjectCarrierAddAfter', 1, '2014-01-06 22:52:07', '2014-01-17 15:40:19'),
 (37, 29, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = "displayPayment" OR h.name = "payment") AND m.name NOT IN ("bankwire", "cheque", "cashondelivery")', '>', '2', '', 'hook', 'actionModuleInstallAfter', 0, '2014-01-06 22:52:07', '2014-01-05 22:52:07'),
 (38, 31, 'sql', 'SELECT SUM(total_paid_tax_excl / c.conversion_rate)\r\nFROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != "XKBKNABJK"', '>=', '200', '', 'hook', 'actionOrderStatusUpdate', 0, '2014-01-06 22:52:08', '2014-01-05 22:52:08'),
 (39, 32, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != "XKBKNABJK"', '>=', '2000', '', 'hook', 'actionOrderStatusUpdate', 0, '2014-01-06 22:52:08', '2014-01-05 22:52:08'),
@@ -2591,7 +2613,7 @@ INSERT INTO `ps_condition` (`id_condition`, `id_ps_condition`, `type`, `request`
 (45, 38, 'install', '', '>=', '182', '', 'time', '2', 0, '2014-01-06 22:52:08', '2014-01-15 23:02:29'),
 (46, 39, 'install', '', '>=', '365', '', 'time', '2', 0, '2014-01-06 22:52:08', '2014-01-04 22:52:08'),
 (47, 41, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10', '2', 'time', '1', 0, '2014-01-06 22:52:08', '2014-01-13 15:17:28'),
-(48, 42, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100', '3', 'time', '1', 0, '2014-01-06 22:52:08', '2014-01-17 00:01:00'),
+(48, 42, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100', '3', 'time', '1', 0, '2014-01-06 22:52:08', '2014-01-19 00:00:14'),
 (49, 43, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '1000', '', 'time', '1', 0, '2014-01-06 22:52:08', '2014-01-05 22:52:08'),
 (50, 44, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10000', '', 'time', '2', 0, '2014-01-06 22:52:08', '2014-01-04 22:52:08'),
 (51, 45, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100000', '', 'time', '3', 0, '2014-01-06 22:52:08', '2014-01-03 22:52:08'),
@@ -2909,28 +2931,28 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (6, NULL, NULL, 'PS_CURRENCY_DEFAULT', '1', '0000-00-00 00:00:00', '2014-01-06 22:18:25'),
 (7, NULL, NULL, 'PS_COUNTRY_DEFAULT', '29', '0000-00-00 00:00:00', '2014-01-15 22:47:11'),
 (8, NULL, NULL, 'PS_REWRITING_SETTINGS', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(9, NULL, NULL, 'PS_ORDER_OUT_OF_STOCK', '0', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
-(10, NULL, NULL, 'PS_LAST_QTIES', '3', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
-(11, NULL, NULL, 'PS_CART_REDIRECT', '1', '0000-00-00 00:00:00', '2014-01-12 15:56:39'),
+(9, NULL, NULL, 'PS_ORDER_OUT_OF_STOCK', '0', '0000-00-00 00:00:00', '2014-01-19 00:26:17'),
+(10, NULL, NULL, 'PS_LAST_QTIES', '3', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
+(11, NULL, NULL, 'PS_CART_REDIRECT', '1', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (12, NULL, NULL, 'PS_HELPBOX', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (13, NULL, NULL, 'PS_CONDITIONS', '1', '0000-00-00 00:00:00', '2014-01-09 23:43:22'),
 (14, NULL, NULL, 'PS_RECYCLABLE_PACK', '0', '0000-00-00 00:00:00', '2014-01-09 23:43:23'),
 (15, NULL, NULL, 'PS_GIFT_WRAPPING', '0', '0000-00-00 00:00:00', '2014-01-09 23:43:22'),
 (16, NULL, NULL, 'PS_GIFT_WRAPPING_PRICE', '0', '0000-00-00 00:00:00', '2014-01-09 23:43:22'),
-(17, NULL, NULL, 'PS_STOCK_MANAGEMENT', '1', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
+(17, NULL, NULL, 'PS_STOCK_MANAGEMENT', '1', '0000-00-00 00:00:00', '2014-01-19 00:26:17'),
 (18, NULL, NULL, 'PS_NAVIGATION_PIPE', '>', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(19, NULL, NULL, 'PS_PRODUCTS_PER_PAGE', '10', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
+(19, NULL, NULL, 'PS_PRODUCTS_PER_PAGE', '10', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (20, NULL, NULL, 'PS_PURCHASE_MINIMUM', '0', '0000-00-00 00:00:00', '2014-01-09 23:43:22'),
 (21, NULL, NULL, 'PS_PRODUCTS_ORDER_WAY', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (22, NULL, NULL, 'PS_PRODUCTS_ORDER_BY', '4', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(23, NULL, NULL, 'PS_DISPLAY_QTIES', '0', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
+(23, NULL, NULL, 'PS_DISPLAY_QTIES', '0', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (24, NULL, NULL, 'PS_SHIPPING_HANDLING', '2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (25, NULL, NULL, 'PS_SHIPPING_FREE_PRICE', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (26, NULL, NULL, 'PS_SHIPPING_FREE_WEIGHT', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (27, NULL, NULL, 'PS_SHIPPING_METHOD', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(28, NULL, NULL, 'PS_TAX', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(28, NULL, NULL, 'PS_TAX', '1', '0000-00-00 00:00:00', '2014-01-17 15:47:33'),
 (29, NULL, NULL, 'PS_SHOP_ENABLE', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(30, NULL, NULL, 'PS_NB_DAYS_NEW_PRODUCT', '20', '0000-00-00 00:00:00', '2014-01-12 15:56:39'),
+(30, NULL, NULL, 'PS_NB_DAYS_NEW_PRODUCT', '5', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (31, NULL, NULL, 'PS_SSL_ENABLED', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (32, NULL, NULL, 'PS_WEIGHT_UNIT', 'kg', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (33, NULL, NULL, 'PS_BLOCK_CART_AJAX', '1', '0000-00-00 00:00:00', '2014-01-06 22:18:30'),
@@ -2947,7 +2969,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (44, NULL, NULL, 'PS_INVOICE', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (45, NULL, NULL, 'PS_PASSWD_TIME_BACK', '360', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (46, NULL, NULL, 'PS_PASSWD_TIME_FRONT', '360', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(47, NULL, NULL, 'PS_DISP_UNAVAILABLE_ATTR', '1', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
+(47, NULL, NULL, 'PS_DISP_UNAVAILABLE_ATTR', '0', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (48, NULL, NULL, 'PS_SEARCH_MINWORDLEN', '3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (49, NULL, NULL, 'PS_SEARCH_BLACKLIST', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (50, NULL, NULL, 'PS_SEARCH_WEIGHT_PNAME', '6', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -2972,20 +2994,20 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (69, NULL, NULL, 'PS_CONDITIONS_CMS_ID', '3', '0000-00-00 00:00:00', '2014-01-09 23:43:22'),
 (70, NULL, NULL, 'TRACKING_DIRECT_TRAFFIC', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (71, NULL, NULL, 'PS_META_KEYWORDS', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(72, NULL, NULL, 'PS_DISPLAY_JQZOOM', '0', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
+(72, NULL, NULL, 'PS_DISPLAY_JQZOOM', '1', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (73, NULL, NULL, 'PS_VOLUME_UNIT', 'L', '0000-00-00 00:00:00', '2014-01-06 22:17:13'),
 (74, NULL, NULL, 'PS_CIPHER_ALGORITHM', '1', '0000-00-00 00:00:00', '2014-01-06 22:17:11'),
-(75, NULL, NULL, 'PS_ATTRIBUTE_CATEGORY_DISPLAY', '0', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
+(75, NULL, NULL, 'PS_ATTRIBUTE_CATEGORY_DISPLAY', '0', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (76, NULL, NULL, 'PS_CUSTOMER_SERVICE_FILE_UPLOAD', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (77, NULL, NULL, 'PS_CUSTOMER_SERVICE_SIGNATURE', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (78, NULL, NULL, 'PS_BLOCK_BESTSELLERS_DISPLAY', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (79, NULL, NULL, 'PS_BLOCK_NEWPRODUCTS_DISPLAY', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (80, NULL, NULL, 'PS_BLOCK_SPECIALS_DISPLAY', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (81, NULL, NULL, 'PS_STOCK_MVT_REASON_DEFAULT', '3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(82, NULL, NULL, 'PS_COMPARATOR_MAX_ITEM', '0', '0000-00-00 00:00:00', '2014-01-12 15:56:39'),
+(82, NULL, NULL, 'PS_COMPARATOR_MAX_ITEM', '0', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (83, NULL, NULL, 'PS_ORDER_PROCESS_TYPE', '1', '0000-00-00 00:00:00', '2014-01-09 23:43:22'),
 (84, NULL, NULL, 'PS_SPECIFIC_PRICE_PRIORITIES', 'id_shop;id_currency;id_country;id_group', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(85, NULL, NULL, 'PS_TAX_DISPLAY', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(85, NULL, NULL, 'PS_TAX_DISPLAY', '0', '0000-00-00 00:00:00', '2014-01-17 15:47:34'),
 (86, NULL, NULL, 'PS_SMARTY_FORCE_COMPILE', '2', '0000-00-00 00:00:00', '2014-01-07 17:51:12'),
 (87, NULL, NULL, 'PS_DISTANCE_UNIT', 'km', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (88, NULL, NULL, 'PS_STORES_DISPLAY_CMS', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -3008,7 +3030,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (105, NULL, NULL, 'PS_DIMENSION_UNIT', 'cm', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (106, NULL, NULL, 'PS_GUEST_CHECKOUT_ENABLED', '0', '0000-00-00 00:00:00', '2014-01-09 23:43:22'),
 (107, NULL, NULL, 'PS_DISPLAY_SUPPLIERS', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(108, NULL, NULL, 'PS_CATALOG_MODE', '0', '0000-00-00 00:00:00', '2014-01-12 15:56:39'),
+(108, NULL, NULL, 'PS_CATALOG_MODE', '0', '0000-00-00 00:00:00', '2014-01-19 00:26:16'),
 (109, NULL, NULL, 'PS_GEOLOCATION_WHITELIST', '127;209.185.108;209.185.253;209.85.238;209.85.238.11;209.85.238.4;216.239.33.96;216.239.33.97;216.239.33.98;216.239.33.99;216.239.37.98;216.239.37.99;216.239.39.98;216.239.39.99;216.239.41.96;216.239.41.97;216.239.41.98;216.239.41.99;216.239.45.4;216.239.46;216.239.51.96;216.239.51.97;216.239.51.98;216.239.51.99;216.239.53.98;216.239.53.99;216.239.57.96;216.239.57.97;216.239.57.98;216.239.57.99;216.239.59.98;216.239.59.99;216.33.229.163;64.233.173.193;64.233.173.194;64.233.173.195;64.233.173.196;64.233.173.197;64.233.173.198;64.233.173.199;64.233.173.200;64.233.173.201;64.233.173.202;64.233.173.203;64.233.173.204;64.233.173.205;64.233.173.206;64.233.173.207;64.233.173.208;64.233.173.209;64.233.173.210;64.233.173.211;64.233.173.212;64.233.173.213;64.233.173.214;64.233.173.215;64.233.173.216;64.233.173.217;64.233.173.218;64.233.173.219;64.233.173.220;64.233.173.221;64.233.173.222;64.233.173.223;64.233.173.224;64.233.173.225;64.233.173.226;64.233.173.227;64.233.173.228;64.233.173.229;64.233.173.230;64.233.173.231;64.233.173.232;64.233.173.233;64.233.173.234;64.233.173.235;64.233.173.236;64.233.173.237;64.233.173.238;64.233.173.239;64.233.173.240;64.233.173.241;64.233.173.242;64.233.173.243;64.233.173.244;64.233.173.245;64.233.173.246;64.233.173.247;64.233.173.248;64.233.173.249;64.233.173.250;64.233.173.251;64.233.173.252;64.233.173.253;64.233.173.254;64.233.173.255;64.68.80;64.68.81;64.68.82;64.68.83;64.68.84;64.68.85;64.68.86;64.68.87;64.68.88;64.68.89;64.68.90.1;64.68.90.10;64.68.90.11;64.68.90.12;64.68.90.129;64.68.90.13;64.68.90.130;64.68.90.131;64.68.90.132;64.68.90.133;64.68.90.134;64.68.90.135;64.68.90.136;64.68.90.137;64.68.90.138;64.68.90.139;64.68.90.14;64.68.90.140;64.68.90.141;64.68.90.142;64.68.90.143;64.68.90.144;64.68.90.145;64.68.90.146;64.68.90.147;64.68.90.148;64.68.90.149;64.68.90.15;64.68.90.150;64.68.90.151;64.68.90.152;64.68.90.153;64.68.90.154;64.68.90.155;64.68.90.156;64.68.90.157;64.68.90.158;64.68.90.159;64.68.90.16;64.68.90.160;64.68.90.161;64.68.90.162;64.68.90.163;64.68.90.164;64.68.90.165;64.68.90.166;64.68.90.167;64.68.90.168;64.68.90.169;64.68.90.17;64.68.90.170;64.68.90.171;64.68.90.172;64.68.90.173;64.68.90.174;64.68.90.175;64.68.90.176;64.68.90.177;64.68.90.178;64.68.90.179;64.68.90.18;64.68.90.180;64.68.90.181;64.68.90.182;64.68.90.183;64.68.90.184;64.68.90.185;64.68.90.186;64.68.90.187;64.68.90.188;64.68.90.189;64.68.90.19;64.68.90.190;64.68.90.191;64.68.90.192;64.68.90.193;64.68.90.194;64.68.90.195;64.68.90.196;64.68.90.197;64.68.90.198;64.68.90.199;64.68.90.2;64.68.90.20;64.68.90.200;64.68.90.201;64.68.90.202;64.68.90.203;64.68.90.204;64.68.90.205;64.68.90.206;64.68.90.207;64.68.90.208;64.68.90.21;64.68.90.22;64.68.90.23;64.68.90.24;64.68.90.25;64.68.90.26;64.68.90.27;64.68.90.28;64.68.90.29;64.68.90.3;64.68.90.30;64.68.90.31;64.68.90.32;64.68.90.33;64.68.90.34;64.68.90.35;64.68.90.36;64.68.90.37;64.68.90.38;64.68.90.39;64.68.90.4;64.68.90.40;64.68.90.41;64.68.90.42;64.68.90.43;64.68.90.44;64.68.90.45;64.68.90.46;64.68.90.47;64.68.90.48;64.68.90.49;64.68.90.5;64.68.90.50;64.68.90.51;64.68.90.52;64.68.90.53;64.68.90.54;64.68.90.55;64.68.90.56;64.68.90.57;64.68.90.58;64.68.90.59;64.68.90.6;64.68.90.60;64.68.90.61;64.68.90.62;64.68.90.63;64.68.90.64;64.68.90.65;64.68.90.66;64.68.90.67;64.68.90.68;64.68.90.69;64.68.90.7;64.68.90.70;64.68.90.71;64.68.90.72;64.68.90.73;64.68.90.74;64.68.90.75;64.68.90.76;64.68.90.77;64.68.90.78;64.68.90.79;64.68.90.8;64.68.90.80;64.68.90.9;64.68.91;64.68.92;66.249.64;66.249.65;66.249.66;66.249.67;66.249.68;66.249.69;66.249.70;66.249.71;66.249.72;66.249.73;66.249.78;66.249.79;72.14.199;8.6.48', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (110, NULL, NULL, 'PS_LOGS_BY_EMAIL', '5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (111, NULL, NULL, 'PS_COOKIE_CHECKIP', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -3054,7 +3076,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (151, NULL, NULL, 'PS_CARRIER_DEFAULT_SORT', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (152, NULL, NULL, 'PS_STOCK_MVT_INC_REASON_DEFAULT', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (153, NULL, NULL, 'PS_STOCK_MVT_DEC_REASON_DEFAULT', '2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(154, NULL, NULL, 'PS_ADVANCED_STOCK_MANAGEMENT', '0', '0000-00-00 00:00:00', '2014-01-12 15:56:40'),
+(154, NULL, NULL, 'PS_ADVANCED_STOCK_MANAGEMENT', '0', '0000-00-00 00:00:00', '2014-01-19 00:26:17'),
 (155, NULL, NULL, 'PS_ADMINREFRESH_NOTIFICATION', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (156, NULL, NULL, 'PS_STOCK_MVT_TRANSFER_TO', '7', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (157, NULL, NULL, 'PS_STOCK_MVT_TRANSFER_FROM', '6', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -3162,12 +3184,12 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (259, NULL, NULL, 'BLOCKSPECIALS_NB_CACHES', '20', '2014-01-06 22:18:43', '2014-01-06 22:18:43'),
 (260, NULL, NULL, 'HOMESLIDER_LOOP', '1', '2014-01-06 22:18:52', '2014-01-06 22:18:52'),
 (261, NULL, NULL, 'GF_INSTALL_CALC', '1', '2014-01-06 22:19:09', '2014-01-06 22:52:23'),
-(262, NULL, NULL, 'GF_CURRENT_LEVEL', '1', '2014-01-06 22:19:09', '2014-01-17 01:09:47'),
-(263, NULL, NULL, 'GF_CURRENT_LEVEL_PERCENT', '70', '2014-01-06 22:19:09', '2014-01-17 01:09:47'),
-(264, NULL, NULL, 'GF_NOTIFICATION', '10', '2014-01-06 22:19:09', '2014-01-17 01:09:47'),
+(262, NULL, NULL, 'GF_CURRENT_LEVEL', '2', '2014-01-06 22:19:09', '2014-01-19 00:26:18'),
+(263, NULL, NULL, 'GF_CURRENT_LEVEL_PERCENT', '10', '2014-01-06 22:19:09', '2014-01-19 00:26:18'),
+(264, NULL, NULL, 'GF_NOTIFICATION', '13', '2014-01-06 22:19:09', '2014-01-19 00:26:18'),
 (265, NULL, NULL, 'PS_LAST_VERSION', 'a:10:{s:4:"name";s:14:"1.5.6.1 stable";s:3:"num";s:7:"1.5.6.1";s:4:"link";s:37:"http://www.prestashop.com/en/download";s:3:"md5";s:32:"53f2b62cbd414bcc8659215438b5912b";s:11:"autoupgrade";i:1;s:18:"autoupgrade_module";i:1;s:24:"autoupgrade_last_version";s:5:"1.2.4";s:23:"autoupgrade_module_link";s:50:"http://www.prestashop.com/download/autoupgrade.zip";s:9:"changelog";s:0:"";s:4:"desc";s:0:"";}', '2014-01-06 22:52:00', '2014-01-06 22:52:00'),
-(266, NULL, NULL, 'PS_LAST_VERSION_CHECK', '1389880014', '2014-01-06 22:52:00', '2014-01-16 15:46:54'),
-(267, NULL, NULL, 'GF_NOT_VIEWED_BADGE', '86', '2014-01-06 22:52:23', '2014-01-16 23:23:51'),
+(266, NULL, NULL, 'PS_LAST_VERSION_CHECK', '1390081131', '2014-01-06 22:52:00', '2014-01-18 23:38:51'),
+(267, NULL, NULL, 'GF_NOT_VIEWED_BADGE', '141', '2014-01-06 22:52:23', '2014-01-17 15:40:21'),
 (268, NULL, NULL, 'STSN_RESPONSIVE', '1', '2014-01-07 15:42:21', '2014-01-08 18:01:50'),
 (269, NULL, NULL, 'STSN_RESPONSIVE_MAX', '1', '2014-01-07 15:42:21', '2014-01-08 18:01:50'),
 (270, NULL, NULL, 'STSN_BOXSTYLE', '1', '2014-01-07 15:42:21', '2014-01-13 16:01:43'),
@@ -3632,15 +3654,15 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (728, NULL, NULL, 'PS_SHOW_COUNTRY_MODULES_1', '0', '2014-01-07 16:39:18', '2014-01-13 15:45:07'),
 (729, NULL, NULL, 'PS_SHOW_INSTALLED_MODULES_1', 'installedUninstalled', '2014-01-07 16:39:18', '2014-01-07 16:39:18'),
 (730, NULL, NULL, 'PS_SHOW_ENABLED_MODULES_1', 'enabledDisabled', '2014-01-07 16:39:18', '2014-01-07 16:39:18'),
-(731, NULL, NULL, 'PS_SHOW_CAT_MODULES_1', 'favorites', '2014-01-07 16:43:58', '2014-01-15 17:17:30'),
+(731, NULL, NULL, 'PS_SHOW_CAT_MODULES_1', NULL, '2014-01-07 16:43:58', '2014-01-17 16:29:23'),
 (732, NULL, NULL, 'PS_CSS_THEME_CACHE', '0', '2014-01-07 17:51:12', '2014-01-07 17:51:12'),
 (733, NULL, NULL, 'PS_JS_THEME_CACHE', '0', '2014-01-07 17:51:12', '2014-01-07 17:51:12'),
 (734, NULL, NULL, 'PS_HTML_THEME_COMPRESSION', '0', '2014-01-07 17:51:12', '2014-01-07 17:51:12'),
 (735, NULL, NULL, 'PS_JS_HTML_THEME_COMPRESSION', '0', '2014-01-07 17:51:12', '2014-01-07 17:51:12'),
 (736, NULL, NULL, 'PS_HTACCESS_CACHE_CONTROL', '0', '2014-01-07 17:51:12', '2014-01-07 17:51:12'),
-(737, NULL, NULL, 'PS_PRODUCT_SHORT_DESC_LIMIT', '0', '2014-01-09 17:26:49', '2014-01-12 15:56:39'),
-(738, NULL, NULL, 'PS_QTY_DISCOUNT_ON_COMBINATION', '0', '2014-01-09 17:26:49', '2014-01-12 15:56:39'),
-(739, NULL, NULL, 'PS_DISPLAY_DISCOUNT_PRICE', '0', '2014-01-09 17:26:50', '2014-01-12 15:56:40'),
+(737, NULL, NULL, 'PS_PRODUCT_SHORT_DESC_LIMIT', '0', '2014-01-09 17:26:49', '2014-01-19 00:26:16'),
+(738, NULL, NULL, 'PS_QTY_DISCOUNT_ON_COMBINATION', '0', '2014-01-09 17:26:49', '2014-01-19 00:26:16'),
+(739, NULL, NULL, 'PS_DISPLAY_DISCOUNT_PRICE', '0', '2014-01-09 17:26:50', '2014-01-19 00:26:16'),
 (740, NULL, NULL, 'PS_ALLOW_MULTISHIPPING', '0', '2014-01-09 23:43:22', '2014-01-09 23:43:22'),
 (741, NULL, NULL, 'PS_SHIP_WHEN_AVAILABLE', '0', '2014-01-09 23:43:22', '2014-01-09 23:43:22'),
 (742, NULL, NULL, 'PS_GIFT_WRAPPING_TAX_RULES_GROUP', '0', '2014-01-09 23:43:22', '2014-01-09 23:43:22');
@@ -3706,7 +3728,7 @@ CREATE TABLE IF NOT EXISTS `ps_connections` (
   KEY `id_guest` (`id_guest`),
   KEY `date_add` (`date_add`),
   KEY `id_page` (`id_page`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `ps_connections`
@@ -3727,7 +3749,9 @@ INSERT INTO `ps_connections` (`id_connections`, `id_shop_group`, `id_shop`, `id_
 (12, 1, 1, 2, 3, 2130706433, '2014-01-13 22:16:00', ''),
 (13, 1, 1, 2, 1, 2130706433, '2014-01-16 15:36:30', ''),
 (14, 1, 1, 2, 1, 2130706433, '2014-01-16 22:51:52', ''),
-(15, 1, 1, 3, 4, 2130706433, '2014-01-16 23:21:32', '');
+(15, 1, 1, 3, 4, 2130706433, '2014-01-16 23:21:32', ''),
+(16, 1, 1, 3, 1, 2130706433, '2014-01-17 01:23:20', ''),
+(17, 1, 1, 3, 1, 2130706433, '2014-01-17 12:01:49', '');
 
 -- --------------------------------------------------------
 
@@ -3893,7 +3917,7 @@ INSERT INTO `ps_country` (`id_country`, `id_zone`, `id_currency`, `iso_code`, `c
 (26, 1, 0, 'IE', 353, 0, 0, 0, 1, '', 1),
 (27, 5, 0, 'NZ', 64, 0, 0, 0, 1, 'NNNN', 1),
 (28, 3, 0, 'KR', 82, 0, 0, 0, 1, 'NNN-NNN', 1),
-(29, 3, 0, 'IL', 972, 1, 0, 0, 1, 'NNNNN', 1),
+(29, 3, 0, 'IL', 972, 1, 0, 0, 1, 'NNNNNNN', 0),
 (30, 4, 0, 'ZA', 27, 0, 0, 0, 1, 'NNNN', 1),
 (31, 4, 0, 'NG', 234, 0, 0, 0, 1, '', 1),
 (32, 4, 0, 'CI', 225, 0, 0, 0, 1, '', 1),
@@ -4906,7 +4930,7 @@ CREATE TABLE IF NOT EXISTS `ps_currency` (
 --
 
 INSERT INTO `ps_currency` (`id_currency`, `name`, `iso_code`, `iso_code_num`, `sign`, `blank`, `format`, `decimals`, `conversion_rate`, `deleted`, `active`) VALUES
-(1, 'Shekel', 'ILS', '376', '₪‎', 1, 2, 1, '1.000000', 0, 1);
+(1, 'Shekel', 'ILS', '376', '₪‎', 1, 2, 0, '1.000000', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -4983,7 +5007,7 @@ CREATE TABLE IF NOT EXISTS `ps_customer` (
 INSERT INTO `ps_customer` (`id_customer`, `id_shop_group`, `id_shop`, `id_gender`, `id_default_group`, `id_lang`, `id_risk`, `company`, `siret`, `ape`, `firstname`, `lastname`, `email`, `passwd`, `last_passwd_gen`, `birthday`, `newsletter`, `ip_registration_newsletter`, `newsletter_date_add`, `optin`, `website`, `outstanding_allow_amount`, `show_public_prices`, `max_payment_days`, `secure_key`, `note`, `active`, `is_guest`, `deleted`, `date_add`, `date_upd`) VALUES
 (1, 1, 1, 1, 3, 1, 0, '', '', '', 'John', 'DOE', 'pub@prestashop.com', '4d94eab6bac38237b104e12c3cf095d8', '2014-01-06 14:19:14', '1970-01-15', 1, '', '2014-01-06 22:19:14', 1, '', '0.000000', 0, 0, 'f83b3be2fec10710e29a3f9869f3fc90', '', 1, 0, 0, '2014-01-06 22:19:14', '2014-01-06 22:19:14'),
 (2, 1, 1, 0, 3, 3, 0, NULL, NULL, NULL, 'נועם', 'איתן', 'volfson@walla.co.il', '6b7ff1753908e2a5c3d1122b701f7a1b', '2014-01-16 15:20:05', '1975-03-25', 0, NULL, '0000-00-00 00:00:00', 0, NULL, '0.000000', 0, 0, '8e7c7d79ee13730288a827797ce8ec24', NULL, 1, 0, 0, '2014-01-16 23:20:05', '2014-01-16 23:20:05'),
-(3, 1, 1, 0, 3, 3, 0, NULL, NULL, NULL, 'נועם', 'איתן', '5555@gmail.com', '6b7ff1753908e2a5c3d1122b701f7a1b', '2014-01-16 15:49:34', '0000-00-00', 0, NULL, '0000-00-00 00:00:00', 0, NULL, '0.000000', 0, 0, '1bd47e72363e2d7ea87cd7860b6ed7e6', NULL, 1, 0, 0, '2014-01-16 23:49:34', '2014-01-17 00:47:32');
+(3, 1, 1, 0, 3, 3, 0, NULL, NULL, NULL, 'נועם', 'איתן', '5555@gmail.com', '6b7ff1753908e2a5c3d1122b701f7a1b', '2014-01-16 15:49:34', '0000-00-00', 0, NULL, '0000-00-00 00:00:00', 0, NULL, '0.000000', 0, 0, '1bd47e72363e2d7ea87cd7860b6ed7e6', NULL, 1, 0, 0, '2014-01-16 23:49:34', '2014-01-19 00:14:26');
 
 -- --------------------------------------------------------
 
@@ -5164,7 +5188,7 @@ CREATE TABLE IF NOT EXISTS `ps_delivery` (
   KEY `id_carrier` (`id_carrier`,`id_zone`),
   KEY `id_range_price` (`id_range_price`),
   KEY `id_range_weight` (`id_range_weight`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
 -- Dumping data for table `ps_delivery`
@@ -5178,7 +5202,11 @@ INSERT INTO `ps_delivery` (`id_delivery`, `id_shop`, `id_shop_group`, `id_carrie
 (5, NULL, NULL, 2, 0, 1, 1, '5.000000'),
 (6, NULL, NULL, 2, 0, 1, 2, '5.000000'),
 (7, NULL, NULL, 2, 1, 0, 1, '5.000000'),
-(8, NULL, NULL, 2, 1, 0, 2, '5.000000');
+(8, NULL, NULL, 2, 1, 0, 2, '5.000000'),
+(10, NULL, NULL, 3, 2, NULL, 3, '10.000000'),
+(12, NULL, NULL, 3, 3, NULL, 3, '0.000000'),
+(14, NULL, NULL, 4, NULL, 2, 3, '20.000000'),
+(16, NULL, NULL, 4, NULL, 3, 3, '10.000000');
 
 -- --------------------------------------------------------
 
@@ -7187,7 +7215,7 @@ CREATE TABLE IF NOT EXISTS `ps_log` (
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,
   PRIMARY KEY (`id_log`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=103 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=109 ;
 
 --
 -- Dumping data for table `ps_log`
@@ -7295,7 +7323,13 @@ INSERT INTO `ps_log` (`id_log`, `severity`, `error_code`, `message`, `object_typ
 (99, 1, 0, 'Product edition', 'Product', 18, 1, '2014-01-15 17:13:04', '2014-01-15 17:13:04'),
 (100, 1, 0, 'Product edition', 'Product', 22, 1, '2014-01-15 17:22:10', '2014-01-15 17:22:10'),
 (101, 1, 0, 'Product edition', 'Product', 16, 1, '2014-01-15 17:23:49', '2014-01-15 17:23:49'),
-(102, 1, 0, 'Product edition', 'Product', 16, 1, '2014-01-15 17:25:33', '2014-01-15 17:25:33');
+(102, 1, 0, 'Product edition', 'Product', 16, 1, '2014-01-15 17:25:33', '2014-01-15 17:25:33'),
+(103, 1, 0, 'Country edition', 'Country', 29, 1, '2014-01-17 16:05:28', '2014-01-17 16:05:28'),
+(104, 1, 0, 'Country edition', 'Country', 29, 1, '2014-01-17 16:06:47', '2014-01-17 16:06:47'),
+(105, 1, 0, 'Country edition', 'Country', 29, 1, '2014-01-17 16:08:36', '2014-01-17 16:08:36'),
+(106, 1, 0, 'Currency edition', 'Currency', 1, 1, '2014-01-17 16:10:07', '2014-01-17 16:10:07'),
+(107, 1, 0, 'Currency edition', 'Currency', 1, 1, '2014-01-17 16:10:35', '2014-01-17 16:10:35'),
+(108, 1, 0, 'Currency edition', 'Currency', 1, 1, '2014-01-18 23:58:05', '2014-01-18 23:58:05');
 
 -- --------------------------------------------------------
 
@@ -10346,14 +10380,16 @@ CREATE TABLE IF NOT EXISTS `ps_range_price` (
   `delimiter2` decimal(20,6) NOT NULL,
   PRIMARY KEY (`id_range_price`),
   UNIQUE KEY `id_carrier` (`id_carrier`,`delimiter1`,`delimiter2`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `ps_range_price`
 --
 
 INSERT INTO `ps_range_price` (`id_range_price`, `id_carrier`, `delimiter1`, `delimiter2`) VALUES
-(1, 2, '0.000000', '10000.000000');
+(1, 2, '0.000000', '10000.000000'),
+(2, 3, '0.000000', '69.000000'),
+(3, 3, '69.000000', '999999.000000');
 
 -- --------------------------------------------------------
 
@@ -10368,14 +10404,16 @@ CREATE TABLE IF NOT EXISTS `ps_range_weight` (
   `delimiter2` decimal(20,6) NOT NULL,
   PRIMARY KEY (`id_range_weight`),
   UNIQUE KEY `id_carrier` (`id_carrier`,`delimiter1`,`delimiter2`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `ps_range_weight`
 --
 
 INSERT INTO `ps_range_weight` (`id_range_weight`, `id_carrier`, `delimiter1`, `delimiter2`) VALUES
-(1, 2, '0.000000', '10000.000000');
+(1, 2, '0.000000', '10000.000000'),
+(2, 4, '0.000000', '69.000000'),
+(3, 4, '69.000000', '99999.000000');
 
 -- --------------------------------------------------------
 
