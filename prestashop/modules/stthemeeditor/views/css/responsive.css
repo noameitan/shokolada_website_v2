@@ -371,6 +371,7 @@
     .grid_view #product_list .ajax_block_product .hover_fly { bottom:0; }
     .hover_fly.hover_fly_static{position:absolute;}
     .hover_fly{width:auto;border-top:none!important;left:auto;right:0;}
+    .hover_fly a{border-top:none!important;}
     .hover_fly a,.hover_fly a span,.hover_fly a:first-child span,.hover_fly a.ajax_add_to_cart_button span{display:none;}
     .hover_fly a:hover span{display:none!important;}
     .hover_fly.fly_1 a.ajax_add_to_cart_button,
@@ -386,6 +387,9 @@
     .grid_view #product_list .ajax_block_product:hover .pro_second_box{ -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; }
 
     .itemlist_action a:hover{width:30px;}
+    #order .delivery_option label > table.resume, #order-opc .delivery_option label > table.resume {width: auto !important;}
+    
+    #st_mega_menu_container.sticky{background:none!important;position:inherit!important;width: auto!important;padding:0!important;-webkit-box-shadow: none!important; -moz-box-shadow: none!important; box-shadow: none!important;}
 }
 
 /* Tablet (Portrait) 
@@ -400,92 +404,92 @@
     .span5 #thumbs_list{width: 246px;}
         
     .span6 .grid_view.grid_view_3col #product_list .ajax_block_product{width:48%;}
-    .span6 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span6 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span6 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(3n+1){clear:none;}
     .span6 .grid_view.grid_view_4col #product_list .ajax_block_product{width:31.333%;}
-    .span6 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(3n+1){clear:left!important;}
+    .span6 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(3n+1){clear:both!important;}
     .span6 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(4n+1){clear:none;}
     .span6 .grid_view.grid_view_5col #product_list .ajax_block_product{width:23%;}
-    .span6 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(4n+1){clear:left!important;}
+    .span6 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(4n+1){clear:both!important;}
     .span6 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(5n+1){clear:none;}
     .span6 .grid_view.grid_view_6col #product_list .ajax_block_product{width:23%;}
-    .span6 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(4n+1){clear:left!important;}
+    .span6 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(4n+1){clear:both!important;}
     .span6 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(6n+1){clear:none;}
     .span6 .grid_view.grid_view_7col #product_list .ajax_block_product{width:18%;}
-    .span6 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(5n+1){clear:left!important;}
+    .span6 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(5n+1){clear:both!important;}
     .span6 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(7n+1){clear:none;}
     
     .span9 .grid_view.grid_view_3col #product_list .ajax_block_product{width:48%;}
-    .span9 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span9 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(3n+1){clear:none;}
     .span9 .grid_view.grid_view_4col #product_list .ajax_block_product{width:31.333%;}
-    .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(3n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(3n+1){clear:both!important;}
     .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(4n+1){clear:none;}
     .span9 .grid_view.grid_view_5col #product_list .ajax_block_product{width:23%;}
-    .span9 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(4n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(4n+1){clear:both!important;}
     .span9 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(5n+1){clear:none;}
     .span9 .grid_view.grid_view_6col #product_list .ajax_block_product{width:23%;}
-    .span9 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(4n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(4n+1){clear:both!important;}
     .span9 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(6n+1){clear:none;}
     .span9 .grid_view.grid_view_7col #product_list .ajax_block_product{width:18%;}
-    .span9 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(5n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(5n+1){clear:both!important;}
     .span9 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(7n+1){clear:none;}
     
     .span12 .grid_view.grid_view_3col #product_list .ajax_block_product{width:48%;}
-    .span12 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span12 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(3n+1){clear:none;}
     .span12 .grid_view.grid_view_4col #product_list .ajax_block_product{width:48%;}
-    .span12 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span12 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(4n+1){clear:none;}
     .span12 .grid_view.grid_view_5col #product_list .ajax_block_product{width:31.333%;}
-    .span12 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(3n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(3n+1){clear:both!important;}
     .span12 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(5n+1){clear:none;}
     .span12 .grid_view.grid_view_6col #product_list .ajax_block_product{width:23%;}
-    .span12 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(4n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(4n+1){clear:both!important;}
     .span12 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(6n+1){clear:none;}
     .span12 .grid_view.grid_view_7col #product_list .ajax_block_product{width:18%;}
-    .span12 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(5n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(5n+1){clear:both!important;}
     .span12 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(7n+1){clear:none;}
     
     .span9 .subcate_grid_view.subcate_grid_view_3 li {width:48%;}
-    .span9 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(3n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_4 li {width:31.333%;}
-    .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(4n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_5 li {width:23%;}
-    .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(5n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_6 li {width:23%;}
-    .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(4n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(4n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(6n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_7 li {width:18%;}
-    .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(5n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(5n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(7n+1){clear:none;}
     
     .span12 .subcate_grid_view.subcate_grid_view_3 li {width:48%;}
-    .span12 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(3n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_4 li {width:31.333%;}
-    .span12 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(4n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_5 li {width:23%;}
-    .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(5n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_6 li {width:18%;}
-    .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(5n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(5n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(6n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_7 li {width:18%;}
-    .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(5n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(5n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(7n+1){clear:none;}
 
     
-    .blog_list_grid.blog_list_grid_2col .block_blog{width:98%;clear:left;}
+    .blog_list_grid.blog_list_grid_2col .block_blog{width:98%;clear:both;}
     .blog_list_grid.blog_list_grid_3col .block_blog{width:48%;}
-    .blog_list_grid.blog_list_grid_3col .block_blog:nth-child(2n+1){clear:left!important;}
+    .blog_list_grid.blog_list_grid_3col .block_blog:nth-child(2n+1){clear:both!important;}
     .blog_list_grid.blog_list_grid_3col .block_blog:nth-child(3n+1){clear:none;}
     .blog_list_grid.blog_list_grid_4col .block_blog{width:31.333%;}
-    .blog_list_grid.blog_list_grid_4col .block_blog:nth-child(3n+1){clear:left!important;}
+    .blog_list_grid.blog_list_grid_4col .block_blog:nth-child(3n+1){clear:both!important;}
     .blog_list_grid.blog_list_grid_4col .block_blog:nth-child(4n+1){clear:none;}
 
     .camera_caption_box h1{font-size:2.6em!important;}
@@ -525,9 +529,13 @@
     
     #center_column.span12 .featured_categories_list li{width:23%!important;}
     #center_column.span12 .featured_categories_list li:nth-of-type(6n+1){clear:none!important;}
-    #center_column.span12 .featured_categories_list li:nth-of-type(4n+1){clear:left!important;}
+    #center_column.span12 .featured_categories_list li:nth-of-type(4n+1){clear:both!important;}
     
     #search_query_top{width:150px!important;} 
+    
+    .iosSlider_text{font-size: 1em!important;}
+    
+    .logo_center #header_logo{max-width:352px;}
 }
 
 /* All mobile
@@ -568,7 +576,7 @@
     #center_column #add_address p,#center_column #new_account_form p,#center_column #account-creation_form p,#contact  fieldset p.textarea,#contact  fieldset p.submit,#contact  fieldset p.select,#contact  fieldset p.text,#form_forgotpassword p,#contact #center_column p.desc_contact{width:90%!important;padding-left:5%!important;padding-right:5%!important;}
     #add_address span.form_info, #add_address span.inline-infos,#contact #center_column p.desc_contact{margin-left:0!important;}
     #address p.inline-infos,#account-creation_form span.form_info, #account-creation_form p.inline-infos,#new_account_form p.inline-infos,#new_account_form span.form_info, #new_account_form span.inline-infos, #new_account_form p.checkbox input{margin:0!important;}
-    #new_account_form p.radio span,#new_account_form p.password label,#new_account_form p.textarea label,#new_account_form p.select label,#new_account_form p.select span,#new_account_form p.text label,#identity .std p.radio span,#account-creation_form p.text label,#account-creation_form p.password label,#account-creation_form p.select span,#account-creation_form p.select label,#account-creation_form p.textarea label,#account-creation_form p.radio span,#contact p.text label,#contact p.textarea label,#contact p.select span,#contact p.select label,#add_address p.password label,#add_address p.select span,#add_address p.select label,#add_address p.textarea label,#add_address p.text label,#form_forgotpassword p.text label,#identity .std p.password label,#identity .std p.select label,#identity .std p.text label,#send_friend_form .form_container .text label{width:auto!important;padding:0 0 5px 0!important;display:block!important;float:none!important;text-align:left!important}
+    #new_account_form p.radio span,#new_account_form p.password label,#new_account_form p.textarea label,#new_account_form p.select label,#new_account_form p.select span,#new_account_form p.text label,#identity .std p.radio span,#account-creation_form p.text label,#account-creation_form p.password label,#account-creation_form p.select span,#account-creation_form p.select label,#account-creation_form p.textarea label,#account-creation_form p.radio span,#contact p.text label,#contact p.textarea label,#contact p.select span,#contact p.select label,#add_address p.password label,#add_address p.select span,#add_address p.select label,#add_address p.textarea label,#add_address p.text label,#form_forgotpassword p.text label,#identity .std p.password label,#identity .std p.select label,#identity .std p.text label,#send_friend_form .form_container .text label{width:auto!important;padding:0 0 5px 0!important;display:block!important;float:none!important;text-align:left!important;}
     #new_account_form p.text input,#new_account_form p.password input,#new_account_form p.select input,#new_account_form p.textarea textarea,#account-creation_form p.text input,#account-creation_form p.password input,#account-creation_form p.select input,#contact p.text input,#contact p.select input,#contact p.select select,#contact p.textarea textarea,#add_address p.text input,#add_address p.password input,#add_address p.select input,#add_address p.textarea textarea,.wrapper_block .input-box,.wrapper_block input.input-text,.wrapper_block textarea,.wrapper_block select,#form_forgotpassword p.text input[type="text"],#identity .std p.text input,#identity .std p.password input,#order-opc #opc_delivery_methods textarea,#send_friend_form .form_container .text input,#module-blockwishlist-mywishlist #mywishlist p.text input,#gift_div #gift_message{width:90%!important}
     
     #identity .std p.checkbox input,
@@ -576,14 +584,14 @@
     #contact p.submit input,
     .address_select{margin-left:0;}
     #identity .std #security_informations,
-    #identity .std p.submit{padding-left:0;}
+    #identity .std p.submit,
+    #new_account_form #opc_account_choice .opc_float p{padding-left:0!important;}
 
 	ul.step li{float: none !important; margin: 0 auto;width: 80%;}
     ul.step li a, ul.step li span{display:block;border:1px solid #ccc;border-bottom-width:0;}
     ul.step li:last-child a, ul.step li:last-child span{border-bottom-width:1px;}
     
     #order-opc #opc_delivery_methods textarea{width: 100% !important;}
-    #order .delivery_option label > table.resume, #order-opc .delivery_option label > table.resume {width: auto !important;}
     .delivery_option_carrier{width: auto !important;}
     .addresses ul.address{width: 100% !important; float: none !important;margin-right:0!important; }
     .addresses ul.address:last-child{margin-top: 10px !important}
@@ -646,77 +654,77 @@
     #cart_voucher{width:auto!important;float:none;}
     #cart_summary_total{width:100%!important;float:none;}
     
-    .span9 .grid_view.grid_view_2col #product_list .ajax_block_product{width:98%;clear:left;}
+    .span9 .grid_view.grid_view_2col #product_list .ajax_block_product{width:98%;clear:both;}
     .span9 .grid_view.grid_view_3col #product_list .ajax_block_product{width:48%;}
-    .span9 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:left;}
+    .span9 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(2n+1){clear:both;}
     .span9 .grid_view.grid_view_3col #product_list .ajax_block_product:nth-child(3n+1){clear:none;}
     .span9 .grid_view.grid_view_4col #product_list .ajax_block_product{width:48%;}
-    .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(2n+1){clear:left;}
+    .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(2n+1){clear:both;}
     .span9 .grid_view.grid_view_5col #product_list .ajax_block_product{width:48%;}
-    .span9 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span9 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(5n+1){clear:none;}
     .span9 .grid_view.grid_view_6col #product_list .ajax_block_product{width:31.333%;}
-    .span9 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(3n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(3n+1){clear:both!important;}
     .span9 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(6n+1){clear:none;}
     .span9 .grid_view.grid_view_7col #product_list .ajax_block_product{width:31.333%;}
-    .span9 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(3n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(3n+1){clear:both!important;}
     .span9 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(7n+1){clear:none;}
     
     .span12 .grid_view.grid_view_2col #product_list .ajax_block_product,
-    .span12 .grid_view.grid_view_3col #product_list .ajax_block_product{width:98%;clear:left;}
+    .span12 .grid_view.grid_view_3col #product_list .ajax_block_product{width:98%;clear:both;}
     .span12 .grid_view.grid_view_4col #product_list .ajax_block_product,
     .span12 .grid_view.grid_view_5col #product_list .ajax_block_product{width:48%;}
-    .span12 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span12 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(4n+1){clear:none;}
-    .span12 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span12 .grid_view.grid_view_5col #product_list .ajax_block_product:nth-child(5n+1){clear:none;}
     .span12 .grid_view.grid_view_6col #product_list .ajax_block_product,
     .span12 .grid_view.grid_view_7col #product_list .ajax_block_product{width:31.333%;}
     .span12 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(3n+1),
-    .span12 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(3n+1){clear:left!important;}
+    .span12 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(3n+1){clear:both!important;}
     .span12 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(4n+1){clear:none;}
     .span12 .grid_view.grid_view_6col #product_list .ajax_block_product:nth-child(6n+1){clear:none;}
     .span12 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(5n+1){clear:none;}
     .span12 .grid_view.grid_view_7col #product_list .ajax_block_product:nth-child(7n+1){clear:none;}
     
     .span9 .subcate_grid_view.subcate_grid_view_3 li {width:48%;}
-    .span9 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(3n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_4 li {width:31.333%;}
-    .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(4n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_5 li {width:23%;}
-    .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(5n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_6 li {width:23%;}
-    .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(4n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(4n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(6n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_7 li {width:18%;}
-    .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(5n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(5n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(7n+1){clear:none;}
     
     .span12 .subcate_grid_view.subcate_grid_view_3 li {width:48%;}
-    .span12 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(2n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_3 li:nth-of-type(3n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_4 li {width:31.333%;}
-    .span12 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(4n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_5 li {width:23%;}
-    .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(4n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(5n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_6 li {width:23%;}
-    .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(4n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(4n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(6n+1){clear:none;}
     .span12 .subcate_grid_view.subcate_grid_view_7 li {width:23%;}
-    .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(4n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(4n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(7n+1){clear:none;}
     
-    .blog_list_grid.blog_list_grid_2col .block_blog{width:98%;clear:left;}
+    .blog_list_grid.blog_list_grid_2col .block_blog{width:98%;clear:both;}
     .blog_list_grid.blog_list_grid_3col .block_blog{width:48%;}
-    .blog_list_grid.blog_list_grid_3col .block_blog:nth-child(2n+1){clear:left!important;}
+    .blog_list_grid.blog_list_grid_3col .block_blog:nth-child(2n+1){clear:both!important;}
     .blog_list_grid.blog_list_grid_3col .block_blog:nth-child(3n+1){clear:none;}
     .blog_list_grid.blog_list_grid_4col .block_blog{width:48%;}
-    .blog_list_grid.blog_list_grid_4col .block_blog:nth-child(2n+1){clear:left;}
+    .blog_list_grid.blog_list_grid_4col .block_blog:nth-child(2n+1){clear:both;}
         
     .list_view #product_list .pro_first_box{float:none;width:250px;margin:0 auto;}
     .list_view #product_list .pro_second_box{margin-left:0;}
@@ -791,7 +799,7 @@
     
     #center_column.span9 .featured_categories_list li:nth-of-type(2n+1),
     #center_column.span12 #home_secondary_left.span9 .featured_categories_list li:nth-of-type(2n+1),
-    #center_column.span12 .featured_categories_list li:nth-of-type(2n+1){clear:left!important;}
+    #center_column.span12 .featured_categories_list li:nth-of-type(2n+1){clear:both!important;}
     
     #header_left #header_user_info{text-align:center;}
     #top_bar #header_user_info .welcome,
@@ -803,33 +811,48 @@
     .logo_center #submit_searchbox{border-color:#E5E5E5;}
     #search_query_top{width:200px!important;} 
     
-    .camera_banner_2,.camera_banner_3{padding-top:1.666em;}
-    .camera_banner_nbr_1 .camera_banner{width:100%;}
-    .camera_banner_nbr_3 .camera_banner{float:left;width:32%;padding-right:2%;}
-    .camera_banner_nbr_3 .camera_banner:last-child{padding-right:0;}
+    .camera_banner_2,.camera_banner_3,.iosslider_banner_2,.iosslider_banner_3{padding-top:1.666em;}
+    .camera_banner_nbr_1 .camera_banner,.iosslider_banner_nbr_1 .iosslider_banner{width:100%;}
+    .camera_banner_nbr_3 .camera_banner,.iosslider_banner_nbr_3 .iosslider_banner{float:left;width:32%;padding-right:2%;}
+    .camera_banner_nbr_3 .camera_banner:last-child,.iosslider_banner_nbr_3 .iosslider_banner:last-child{padding-right:0;}
     
     .camera_banner_nbr_2 .camera_banner,
     .camera_banner_nbr_4 .camera_banner,
     .camera_banner_nbr_5 .camera_banner,
-    .camera_banner_nbr_6 .camera_banner{float:left;width:48%;padding-left:4%;}
+    .camera_banner_nbr_6 .camera_banner,
+    .iosslider_banner_nbr_2 .iosslider_banner,
+    .iosslider_banner_nbr_4 .iosslider_banner,
+    .iosslider_banner_nbr_5 .iosslider_banner,
+    .iosslider_banner_nbr_6 .iosslider_banner{float:left;width:48%;padding-left:4%;}
     .camera_banner_nbr_2 .camera_banner:nth-child(odd),
     .camera_banner_nbr_4 .camera_banner:nth-child(odd),
     .camera_banner_nbr_5 .camera_banner:nth-child(odd),
-    .camera_banner_nbr_6 .camera_banner:nth-child(odd){padding-left:0;clear:left;}
+    .camera_banner_nbr_6 .camera_banner:nth-child(odd),
+    .iosslider_banner_nbr_2 .iosslider_banner:nth-child(odd),
+    .iosslider_banner_nbr_4 .iosslider_banner:nth-child(odd),
+    .iosslider_banner_nbr_5 .iosslider_banner:nth-child(odd),
+    .iosslider_banner_nbr_6 .iosslider_banner:nth-child(odd){padding-left:0;clear:left;}
     
     .logo_center #header_left, .logo_center #logo_wrapper, .logo_center #header_right{height:auto!important;display:block!important;}
     .logo_center #header_logo_inner, .logo_center #header_left_inner, .logo_center #header_right_inner{display:block!important;}
     
     .inline_list li .cat_name{display:block;clear:left;}
+    
+    #stsocial_list_topbar{display:none;}
+    #version_switching .span12{text-align:center;}
+    
+    .iosSlider_text{font-size: 0.833em!important;}
+    
+    #pb-right-column #image-block{margin-bottom:10px;}
 }
 
 /* Mobile (Landscape, iPhone 4 Portrait)
 * 640px <= width < 768px */
 @media only screen and (min-width: 640px) and (max-width: 767px) {
     .span9 .grid_view.grid_view_2col #product_list .ajax_block_product{width:48%;clear:none;}
-    .span9 .grid_view.grid_view_2col #product_list .ajax_block_product:nth-child(2n+1){clear:left!important;}
+    .span9 .grid_view.grid_view_2col #product_list .ajax_block_product:nth-child(2n+1){clear:both!important;}
     .span9 .grid_view.grid_view_4col #product_list .ajax_block_product{width:31.333%;}
-    .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(3n+1){clear:left;}
+    .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(3n+1){clear:both;}
     .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(4n+1){clear:none;}
     .span9 .grid_view.grid_view_4col #product_list .ajax_block_product:nth-child(2n+1){clear:none;}
     
@@ -857,7 +880,7 @@
 * 480px <= width < 768px */
 @media only screen and (min-width: 480px) and (max-width: 639px) {        
     #home_secondary_left.span12 .pro_itemlist li,
-    #home_secondary_left.span9 .pro_itemlist li{width:98%;clear:left;}
+    #home_secondary_left.span9 .pro_itemlist li{width:98%;clear:both;}
     
     ul#suppliers_list li a.lnk_img,ul#manufacturers_list li a.lnk_img{float:none;}
     ul#suppliers_list li img,ul#manufacturers_list li img{float:none;margin-bottom:1em;}
@@ -892,7 +915,7 @@
     
     #cart_block{display:none!important;}   
     #home_secondary_left.span12 .pro_itemlist li,
-    #home_secondary_left.span9 .pro_itemlist li{width:98%;clear:left;}
+    #home_secondary_left.span9 .pro_itemlist li{width:98%;clear:both;}
     
     .dialog_action{text-align:center;}
     .dialog_action .button:first-child{margin-bottom:10px;}
@@ -919,37 +942,47 @@
     
     .comment_author_infos{display:block;margin:0;padding:6px 0;}
     
-    .span9 .subcate_grid_view.subcate_grid_view_3 li {width:98%;clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_3 li {width:98%;clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_4 li {width:48%;}
     .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(3n+1){clear:none!important;}
-    .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(2n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_4 li:nth-of-type(2n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_5 li {width:48%;}
-    .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(2n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(2n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(5n+1){clear:none;}
     .span9 .subcate_grid_view.subcate_grid_view_6 li {width:48%;}
-    .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(2n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(2n+1){clear:both!important;}
     .span9 .subcate_grid_view.subcate_grid_view_7 li {width:31.333%;}
     .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(5n+1),
     .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(7n+1){clear:none!important;}
-    .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(3n+1){clear:left!important;}
+    .span9 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(3n+1){clear:both!important;}
     
     .span12 .subcate_grid_view.subcate_grid_view_3 li,
-    .span12 .subcate_grid_view.subcate_grid_view_4 li{width:98%;clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_4 li{width:98%;clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_5 li {width:48%;}
     .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(5n+1){clear:none!important;}
-    .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(2n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_5 li:nth-of-type(2n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_6 li {width:48%;}
-    .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(2n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_6 li:nth-of-type(2n+1){clear:both!important;}
     .span12 .subcate_grid_view.subcate_grid_view_7 li {width:48%;}
     .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(7n+1){clear:none;}
-    .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(2n+1){clear:left!important;}
+    .span12 .subcate_grid_view.subcate_grid_view_7 li:nth-of-type(2n+1){clear:both!important;}
     
     .camera_banner_nbr_1 .camera_banner,
     .camera_banner_nbr_2 .camera_banner,
     .camera_banner_nbr_3 .camera_banner,
     .camera_banner_nbr_4 .camera_banner,
     .camera_banner_nbr_5 .camera_banner,
-    .camera_banner_nbr_6 .camera_banner{float:none;width:100%;padding:0;text-align:center;}
+    .camera_banner_nbr_6 .camera_banner,
+    .iosslider_banner_nbr_1 .iosslider_banner,
+    .iosslider_banner_nbr_2 .iosslider_banner,
+    .iosslider_banner_nbr_3 .iosslider_banner,
+    .iosslider_banner_nbr_4 .iosslider_banner,
+    .iosslider_banner_nbr_5 .iosslider_banner,
+    .iosslider_banner_nbr_6 .iosslider_banner{float:none;width:100%;padding:0;text-align:center;}
+    
+    #opc_account_choice .opc_float{float: none;width: auto;}
+    
+    .iosSlider_text{font-size: 0.666em!important;}
 }
 
 /* Mobile (Portrait)

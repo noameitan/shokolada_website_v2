@@ -1,0 +1,6 @@
+*ERROR* 	2014/01/16 - 13:11:37: Shop not found at line 389 in file classes/shop/Shop.php
+*ERROR* 	2014/01/16 - 13:11:41: Shop not found at line 389 in file classes/shop/Shop.php
+*ERROR* 	2014/01/16 - 15:26:50: No access reference in table module_access for id_module 64. at line 1843 in file classes/module/Module.php
+*ERROR* 	2014/01/16 - 15:27:59: No access reference in table module_access for id_module 64. at line 1843 in file classes/module/Module.php
+*ERROR* 	2014/01/16 - 15:28:05: No access reference in table module_access for id_module 64. at line 1843 in file classes/module/Module.php
+*ERROR* 	2014/01/16 - 15:30:41: No access reference in table module_access for id_module 64. at line 1843 in file classes/module/Module.php
