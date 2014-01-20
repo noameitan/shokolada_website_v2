@@ -14,3 +14,5 @@ $_MODULE['<{blockstore}transformer>blockstore_3eedfc0fbc9042acf0ecfe0f325428c4']
 $_MODULE['<{blockstore}transformer>blockstore_c9cc8cce247e49bae79f15173ce97354'] = 'שמור';
 $_MODULE['<{blockstore}transformer>blockstore_8c0caec5616160618b362bcd4427d97b'] = 'החנויות שלנו';
 $_MODULE['<{blockstore}transformer>blockstore_28fe12f949fd191685071517628df9b3'] = 'מצא את הסניפים שלנו';
+$_MODULE['<{blockstore}transformer>blockstore_34c869c542dee932ef8cd96d2f91cae6'] = 'החנויות שלנו';
+$_MODULE['<{blockstore}transformer>blockstore_61d5070a61ce6eb6ad2a212fdf967d92'] = 'גלה החנויות שלנו';

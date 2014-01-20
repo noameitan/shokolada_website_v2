@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-19 00:21:16
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-20 23:51:05
          compiled from "D:\wamp\www\1561\prestashop\modules\strightbarcart\views\templates\hook\strightbarcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:42852dafe5cb6ccf1-57793299%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1127552dd9a49e42b15-18400863%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '42852dafe5cb6ccf1-57793299',
+  'nocache_hash' => '1127552dd9a49e42b15-18400863',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52dafe5cbf0047_23499777',
+  'unifunc' => 'content_52dd9a4a043890_89456255',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52dafe5cbf0047_23499777')) {function content_52dafe5cbf0047_23499777($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52dd9a4a043890_89456255')) {function content_52dd9a4a043890_89456255($_smarty_tpl) {?>
 <!-- /MODULE Rightbar cart -->
 <div id="rightbar_cart" class="rightbar_wrap">
     <a id="rightbar-shopping_cart" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink(((string)$_smarty_tpl->tpl_vars['order_process']->value),true), ENT_QUOTES, 'UTF-8', true);?>

@@ -25,5 +25,7 @@ $_MODULE['<{blocknewsletter}transformer>blocknewsletter_ebc069b1b9a2c48edfa39e34
 $_MODULE['<{blocknewsletter}transformer>blocknewsletter_77c576a354d5d6f5e2c1ba50167addf8'] = 'רישום מינוי עבר בהצלחה';
 $_MODULE['<{blocknewsletter}transformer>blocknewsletter_99c8b8e5e51bf8f00f1d66820684be9a'] = 'אימייל כבר רשום או שאינו חוקי';
 $_MODULE['<{blocknewsletter}transformer>blocknewsletter_4e1c51e233f1ed368c58db9ef09010ba'] = 'תודה שנרשמת לרשימת התפוצה שלנו';
-$_MODULE['<{blocknewsletter}transformer>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'ידיעון';
+$_MODULE['<{blocknewsletter}transformer>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'ניוזלטר';
 $_MODULE['<{blocknewsletter}transformer>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = 'כתובת אימייל שלך';
+$_MODULE['<{blocknewsletter}transformer>blocknewsletter_9b3911a6705bcd3a70c80e00fe1bde68'] = 'הצטרפות לניוזלטר של שוקולדה';
+$_MODULE['<{blocknewsletter}transformer>blocknewsletter_b26917587d98330d93f87808fc9d7267'] = 'שליחה';
